@@ -1,4 +1,4 @@
-# "Beyond Pass/Fail: Separating Agent Errors from Unspecified Requirements in Coding-Agent Failures"
+# Beyond Pass/Fail: Separating Agent Errors from Unspecified Requirements in Coding-Agent Failures
 
 This package reproduces the tables, the figure, and the inline statistics of the paper from derived data.
 It runs on Python 3.10 or newer. Only matplotlib is needed outside the standard library.
