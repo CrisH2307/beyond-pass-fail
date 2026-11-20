@@ -1,24 +1,5 @@
 # Analysis plans, freezes, and deviations
 
-## Frozen plans
-
-The analysis plans were tagged in the working repository before the confirmatory numbers were computed.
-A tag means the plan text was fixed at that commit. Any later change is listed under "Deviations".
-
-| Tag | Commit | Date | Covers |
-|---|---|---|---|
-| `rq1-plan-frozen` | 299cf08 | 2026-09-27 | RQ1 on Terminal-Bench: labels, plan, and analysis scripts |
-| `rq3-addendum-frozen` | 1eaa146 | 2026-10-17 | RQ3 addendum: blocking-task prevalence and the task audit |
-| `nebius-plan-frozen` | 89fd114 | 2026-10-30 | Nebius plan, including the amendment approved on 2026-10-29: audit of N001 to N040 first, Terminal-Bench definitions, no outcomes computed |
-| `rq2-rq3-addendum-frozen` | 23fce9b | 2026-11-05 | RQ2 and RQ3 addendum: behaviour by failure source, pass rates, and score share |
-
-Notes on what each freeze covers:
-
-- The RQ2 and RQ3 addendum fixed one question for each research question. Its analyses were fixed before any comparison was computed.
-  Terminal-Bench is described as descriptive where the paper says so.
-- The SWE-bench RQ3 analysis is the addendum's primary analysis (all 24 submissions, OpenAI ensemble maximum, severe versus none).
-- The 10,000-redraw bootstrap and the seed 20260925 come from the addendum and the RQ1 plan.
-
 ## Pre-specified analyses reproduced here
 
 | Analysis | Plan | Script |
