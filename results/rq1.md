@@ -1,4 +1,4 @@
-## RQ1, Terminal-Bench (weighted; v5 labels)
+## RQ1, Terminal-Bench (weighted; labels)
 | category | census count | random hits | estimate (runs) | share % | 95% CI % |
 |---|---:|---:|---:|---:|---|
 | Explicit (ANCHORED) | 164 | 22 | 356.1 | 30.1 | [24.4, 37.0] |
