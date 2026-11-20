@@ -1,0 +1,413 @@
+item_id,run_id,task,stratum,weight,faap_trigger,faap_category,label_v4,label_v5,note_v5
+L001,reshard-c4-data__terminus2__qwen,reshard-c4-data,candidate,1,spec_neglect,task_understanding,NOT,ANCHORED,
+L002,sam-cell-seg__terminus2__devstral,sam-cell-seg,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,also: there should be no overlap between masks
+L003,multi-source-data-merger__openhands__kimi,multi-source-data-merger,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,env
+L004,build-pov-ray__miniswe__deepseek-v3.2,build-pov-ray,candidate,1,knowledge_gap,task_understanding,NOT,NOT,
+L005,hf-train-lora-adapter__miniswe__deepseek-v3.2,hf-train-lora-adapter,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,env
+L006,intrusion-detection__miniswe__deepseek-v3.2,intrusion-detection,candidate,1,false_premise,spec_violation,NOT,NOT,
+L007,db-wal-recovery__openhands__deepseek-v3.2,db-wal-recovery,random_other,8.73,false_premise,task_strategy,ANCHORED,ANCHORED,env
+L008,git-workflow-hack__miniswe__devstral,git-workflow-hack,candidate,1,spec_neglect,spec_violation,UNCLEAR,NOT,implicit
+L009,rare-mineral-allocation__terminus2__devstral,rare-mineral-allocation,candidate,1,spec_neglect,spec_violation,NOT,NOT,
+L010,mteb-leaderboard__terminus2__claude,mteb-leaderboard,random_other,8.73,false_premise,recovery_or_search,NOT,ANCHORED,
+L011,parallelize-graph__terminus2__claude,parallelize-graph,random_other,8.73,knowledge_gap,implementation_generation,NOT,NOT,
+L012,install-windows-3.11__openhands__claude,install-windows-3.11,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L013,mteb-retrieve__openhands__deepseek-v3.2,mteb-retrieve,candidate,1,spec_neglect,task_strategy,ANCHORED,NOT,implicit
+L014,bank-trans-filter__openhands__devstral,bank-trans-filter,candidate,1,ignored_signal,task_understanding,ANCHORED,ANCHORED,
+L015,video-processing__openhands__devstral,video-processing,random_other,8.73,ignored_signal,implementation_generation,NOT,NOT,
+L016,configure-git-webserver__terminus2__claude,configure-git-webserver,candidate,1,spec_neglect,verification,ANCHORED,NOT,implicit
+L017,add-benchmark-lm-eval-harness__miniswe__deepseek-v3.2,add-benchmark-lm-eval-harness,candidate,1,false_premise,spec_violation,ANCHORED,ANCHORED,env
+L018,intrusion-detection__openhands__gemini,intrusion-detection,candidate,1,spec_neglect,completion_protocol,NOT,NOT,implicit
+L019,mteb-retrieve__terminus2__claude,mteb-retrieve,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L020,add-benchmark-lm-eval-harness__openhands__kimi,add-benchmark-lm-eval-harness,candidate,1,false_premise,task_understanding,UNCLEAR,NOT,env
+L021,spinning-up-rl__terminus2__deepseek-v3.2,spinning-up-rl,random_other,8.73,premature_action,tool_use,NOT,NOT,
+L022,protein-assembly__miniswe__kimi,protein-assembly,candidate,1,spec_neglect,task_understanding,NOT,NOT,implicit
+L023,mteb-leaderboard__terminus2__devstral,mteb-leaderboard,random_other,8.73,false_premise,task_strategy,NOT,ANCHORED,
+L024,install-windows-xp__miniswe__kimi,install-windows-xp,candidate,1,knowledge_gap,spec_violation,NOT,NOT,
+L025,vul-flask__miniswe__deepseek-v3.2,vul-flask,random_other,8.73,false_premise,task_strategy,NOT,NOT,
+L026,extract-elf__terminus2__qwen,extract-elf,candidate,1,spec_neglect,task_strategy,ANCHORED,NOT,implicit
+L027,configure-git-webserver__terminus2__gemini,configure-git-webserver,candidate,1,spec_neglect,task_strategy,NOT,NOT,implicit
+L028,leelachess0-pytorch-conversion__miniswe__kimi,leelachess0-pytorch-conversion,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,
+L029,count-dataset-tokens__miniswe__devstral,count-dataset-tokens,random_other,8.73,false_premise,task_strategy,NOT,NOT,implicit
+L030,llm-inference-batching-scheduler__openhands__devstral,llm-inference-batching-scheduler,candidate,1,spec_neglect,task_strategy,NOT,NOT,implicit
+L031,protein-assembly__terminus2__gpt5,protein-assembly,candidate,1,spec_neglect,task_understanding,NOT,NOT,
+L032,count-call-stack__miniswe__qwen,count-call-stack,candidate,1,misread_output,task_understanding,NOT,NOT,
+L033,sqlite-db-truncate__miniswe__gpt5,sqlite-db-truncate,random_other,8.73,knowledge_gap,task_strategy,NOT,NOT,
+L034,train-fasttext__openhands__gpt5,train-fasttext,random_other,8.73,environment_obstacle_mishandled,environment_setup,NOT,NOT,
+L035,build-cython-ext__miniswe__gemini,build-cython-ext,candidate,1,false_premise,spec_violation,NOT,ANCHORED,
+L036,winning-avg-corewars__miniswe__devstral,winning-avg-corewars,random_other,8.73,knowledge_gap,domain_knowledge,NOT,NOT,
+L037,movie-helper__terminus2__gpt5,movie-helper,candidate,1,spec_neglect,spec_violation,NOT,NOT,
+L038,count-call-stack__openhands__gpt5,count-call-stack,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,
+L039,rare-mineral-allocation__miniswe__gemini,rare-mineral-allocation,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,
+L040,install-windows-3.11__terminus2__kimi,install-windows-3.11,candidate,1,knowledge_gap,spec_violation,NOT,NOT,implicit
+L041,query-optimize__terminus2__gemini,query-optimize,random_other,8.73,capability_limit,implementation_generation,NOT,NOT,
+L042,intrusion-detection__openhands__deepseek-v3.2,intrusion-detection,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L043,movie-helper__openhands__qwen,movie-helper,candidate,1,spec_neglect,task_understanding,UNCLEAR,NOT,implicit
+L044,query-optimize__miniswe__deepseek-v3.2,query-optimize,random_other,8.73,false_premise,recovery_or_search,NOT,NOT,
+L045,reshard-c4-data__openhands__devstral,reshard-c4-data,candidate,1,false_premise,spec_violation,NOT,ANCHORED,also: Should reconstruct the original file structure and content exactly
+L046,add-benchmark-lm-eval-harness__openhands__claude,add-benchmark-lm-eval-harness,random_other,8.73,knowledge_gap,task_execution,NOT,NOT,
+L047,add-benchmark-lm-eval-harness__openhands__devstral,add-benchmark-lm-eval-harness,random_other,8.73,false_premise,implementation_generation,ANCHORED,ANCHORED,also implicit: metric acc
+L048,filter-js-from-html__miniswe__devstral,filter-js-from-html,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,also implicit
+L049,find-official-code__terminus2__gpt5,find-official-code,random_other,8.73,environment_obstacle_mishandled,environment_setup,NOT,NOT,
+L050,organization-json-generator__miniswe__gpt5,organization-json-generator,candidate,1,spec_neglect,completion_protocol,NOT,NOT,implicit
+L051,acl-permissions-inheritance__openhands__deepseek-v3.2,acl-permissions-inheritance,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,
+L052,rare-mineral-allocation__miniswe__kimi,rare-mineral-allocation,candidate,1,spec_neglect,task_understanding,NOT,NOT,implicit
+L053,rare-mineral-allocation__terminus2__claude,rare-mineral-allocation,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L054,count-dataset-tokens__terminus2__qwen,count-dataset-tokens,candidate,1,false_premise,task_understanding,NOT,NOT,
+L055,multi-source-data-merger__miniswe__gemini,multi-source-data-merger,candidate,1,false_premise,spec_violation,ANCHORED,ANCHORED,
+L056,install-windows-xp__openhands__kimi,install-windows-xp,candidate,1,knowledge_gap,spec_violation,NOT,NOT,
+L057,gpt2-codegolf__terminus2__qwen,gpt2-codegolf,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,
+L058,vul-flask__terminus2__gemini,vul-flask,random_other,8.73,capability_limit,implementation_application,NOT,NOT,
+L059,count-dataset-tokens__openhands__kimi,count-dataset-tokens,candidate,1,spec_neglect,task_understanding,NOT,NOT,implicit
+L060,chem-rf__terminus2__claude,chem-rf,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,
+L061,regex-chess__terminus2__kimi,regex-chess,candidate,1,knowledge_gap,task_understanding,NOT,NOT,
+L062,movie-helper__miniswe__gpt5,movie-helper,random_other,8.73,knowledge_gap,task_strategy,NOT,NOT,
+L063,setup-custom-dev-env__miniswe__deepseek-v3.2,setup-custom-dev-env,candidate,1,spec_neglect,completion_protocol,ANCHORED,ANCHORED,
+L064,word2vec-from-scratch__openhands__qwen,word2vec-from-scratch,candidate,1,knowledge_gap,spec_violation,NOT,NOT,
+L065,count-call-stack__miniswe__devstral,count-call-stack,candidate,1,misread_output,task_understanding,NOT,NOT,
+L066,protein-assembly__terminus2__kimi,protein-assembly,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,also: wrong antibody binder and molecule binder
+L067,hf-train-lora-adapter__miniswe__devstral,hf-train-lora-adapter,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,
+L068,incompatible-python-fasttext__terminus2__gemini,incompatible-python-fasttext,random_other,8.73,false_premise,task_strategy,NOT,NOT,
+L069,llm-inference-batching-scheduler__openhands__gemini,llm-inference-batching-scheduler,random_other,8.73,knowledge_gap,task_strategy,NOT,NOT,
+L070,sqlite-db-truncate__miniswe__devstral,sqlite-db-truncate,random_other,8.73,misread_output,task_strategy,NOT,NOT,
+L071,puzzle-solver__miniswe__devstral,puzzle-solver,candidate,1,spec_neglect,spec_violation,NOT,NOT,
+L072,extract-moves-from-video__terminus2__deepseek-v3.2,extract-moves-from-video,random_other,8.73,environment_obstacle_mishandled,environment_setup,ANCHORED,ANCHORED,env
+L073,openssl-selfsigned-cert__miniswe__gemini,openssl-selfsigned-cert,candidate,1,spec_neglect,spec_violation,NOT,NOT,
+L074,mteb-eval__miniswe__devstral,mteb-eval,candidate,1,spec_neglect,task_strategy,NOT,NOT,
+L075,video-processing__openhands__gemini,video-processing,random_other,8.73,capability_limit,implementation_generation,NOT,NOT,
+L076,mteb-retrieve__miniswe__qwen,mteb-retrieve,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,
+L077,bank-trans-filter__terminus2__deepseek-v3.2,bank-trans-filter,random_other,8.73,false_premise,verification,ANCHORED,ANCHORED,
+L078,count-dataset-tokens__openhands__qwen,count-dataset-tokens,candidate,1,spec_neglect,task_understanding,NOT,NOT,implicit
+L079,solve-maze-challenge__openhands__deepseek-v3.2,solve-maze-challenge,random_other,8.73,false_premise,implementation_generation,NOT,NOT,
+L080,solve-maze-challenge__openhands__qwen,solve-maze-challenge,random_other,8.73,false_premise,task_strategy,NOT,NOT,
+L081,filter-js-from-html__miniswe__qwen,filter-js-from-html,random_other,8.73,capability_limit,implementation_generation,NOT,NOT,
+L082,word2vec-from-scratch__miniswe__qwen,word2vec-from-scratch,random_other,8.73,false_premise,task_strategy,NOT,ANCHORED,
+L083,mcmc-sampling-stan__miniswe__claude,mcmc-sampling-stan,candidate,1,knowledge_gap,spec_violation,ANCHORED,ANCHORED,also: outputs not at the /app/ paths
+L084,regex-chess__terminus2__qwen,regex-chess,candidate,1,knowledge_gap,task_understanding,NOT,NOT,
+L085,mcmc-sampling-stan__miniswe__devstral,mcmc-sampling-stan,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,env
+L086,build-linux-kernel-qemu__terminus2__devstral,build-linux-kernel-qemu,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,
+L087,protein-assembly__openhands__claude,protein-assembly,candidate,1,false_premise,task_understanding,NOT,NOT,
+L088,filter-js-from-html__openhands__gemini,filter-js-from-html,candidate,1,spec_neglect,completion_protocol,NOT,NOT,
+L089,reshard-c4-data__miniswe__kimi,reshard-c4-data,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,
+L090,acl-permissions-inheritance__terminus2__claude,acl-permissions-inheritance,candidate,1,spec_neglect,environment_setup,ANCHORED,ANCHORED,
+L091,path-tracing-reverse__miniswe__gpt5,path-tracing-reverse,random_other,8.73,premature_action,completion_protocol,NOT,NOT,
+L092,hello-world__openhands__devstral,hello-world,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,
+L093,chess-best-move__openhands__deepseek-v3.2,chess-best-move,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,
+L094,bank-trans-filter__terminus2__kimi,bank-trans-filter,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,
+L095,vul-flink__miniswe__kimi,vul-flink,random_other,8.73,environment_obstacle_mishandled,verification,NOT,ANCHORED,env
+L096,movie-helper__miniswe__qwen,movie-helper,candidate,1,spec_neglect,task_understanding,ANCHORED,NOT,implicit
+L097,protein-assembly__miniswe__devstral,protein-assembly,candidate,1,misread_output,task_understanding,NOT,NOT,
+L098,stable-parallel-kmeans__miniswe__deepseek-v3.2,stable-parallel-kmeans,random_other,8.73,capability_limit,implementation_generation,NOT,NOT,
+L099,gpt2-codegolf__openhands__gpt5,gpt2-codegolf,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,
+L100,hf-train-lora-adapter__openhands__deepseek-v3.2,hf-train-lora-adapter,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,env
+L101,aimo-airline-departures__openhands__devstral,aimo-airline-departures,candidate,1,false_premise,task_understanding,NOT,ANCHORED,
+L102,llm-inference-batching-scheduler__miniswe__kimi,llm-inference-batching-scheduler,candidate,1,false_premise,spec_violation,NOT,NOT,
+L103,path-tracing-reverse__miniswe__kimi,path-tracing-reverse,random_other,8.73,false_premise,task_strategy,NOT,NOT,
+L104,intrusion-detection__terminus2__qwen,intrusion-detection,candidate,1,spec_neglect,task_understanding,NOT,ANCHORED,also implicit: incident report folder; IP list format
+L105,install-windows-xp__openhands__claude,install-windows-xp,candidate,1,spec_neglect,spec_violation,ANCHORED,NOT,implicit
+L106,install-windows-3.11__miniswe__qwen,install-windows-3.11,candidate,1,spec_neglect,task_understanding,NOT,NOT,
+L107,filter-js-from-html__miniswe__gpt5,filter-js-from-html,random_other,8.73,ignored_signal,verification,NOT,NOT,
+L108,git-multibranch__openhands__deepseek-v3.2,git-multibranch,candidate,1,spec_neglect,task_understanding,NOT,NOT,
+L109,chess-best-move__terminus2__kimi,chess-best-move,candidate,1,knowledge_gap,task_understanding,ANCHORED,ANCHORED,
+L110,pytorch-model-cli__terminus2__claude,pytorch-model-cli,random_other,8.73,false_premise,task_strategy,ANCHORED,ANCHORED,also: hardcoded output
+L111,solve-maze-challenge__miniswe__qwen,solve-maze-challenge,candidate,1,knowledge_gap,task_understanding,NOT,NOT,
+L112,spinning-up-rl__openhands__claude,spinning-up-rl,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,The agent substituted an explicit directory structure requirement with its own flattened version.
+L113,neuron-to-jaxley-conversion__terminus2__gpt5,neuron-to-jaxley-conversion,random_other,8.73,knowledge_gap,implementation_generation,NOT,NOT,
+L114,movie-helper__openhands__claude,movie-helper,candidate,1,false_premise,task_understanding,NOT,NOT,
+L115,mahjong-winninghand__miniswe__kimi,mahjong-winninghand,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,The agent dropped the explicit string formatting constraint (quotes)
+L116,movie-helper__miniswe__deepseek-v3.2,movie-helper,random_other,8.73,false_premise,task_strategy,NOT,NOT,
+L117,reshard-c4-data__openhands__kimi,reshard-c4-data,candidate,1,spec_neglect,implementation_generation,NOT,ANCHORED,also: Should reconstruct the original file structure and content exactly
+L118,protein-assembly__terminus2__deepseek-v3.2,protein-assembly,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,"The agent gave up on using the mandated API, guessing the proteins instead."
+L119,protein-assembly__terminus2__claude,protein-assembly,candidate,1,knowledge_gap,task_understanding,ANCHORED,ANCHORED,also: wrong molecule binder (SMILES misidentified)
+L120,aimo-airline-departures__terminus2__claude,aimo-airline-departures,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,
+L121,distribution-search__openhands__gpt5,distribution-search,random_other,8.73,false_premise,environment_setup,NOT,NOT,
+L122,regex-chess__terminus2__gpt5,regex-chess,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,
+L123,hf-lora-adapter__miniswe__devstral,hf-lora-adapter,candidate,1,capability_limit,spec_violation,ANCHORED,ANCHORED,
+L124,constraints-scheduling__openhands__gemini,constraints-scheduling,random_other,8.73,false_premise,task_strategy,ANCHORED,ANCHORED,
+L125,extract-moves-from-video__openhands__gpt5,extract-moves-from-video,random_other,8.73,environment_obstacle_mishandled,environment_setup,NOT,NOT,
+L126,acl-permissions-inheritance__terminus2__qwen,acl-permissions-inheritance,candidate,1,spec_neglect,task_understanding,ANCHORED,NOT,
+L127,rare-mineral-allocation__terminus2__kimi,rare-mineral-allocation,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L128,intrusion-detection__openhands__devstral,intrusion-detection,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,"also: echo the word ""invalid"""
+L129,acl-permissions-inheritance__openhands__qwen,acl-permissions-inheritance,candidate,1,spec_neglect,task_understanding,ANCHORED,NOT,
+L130,triton-interpret__openhands__gemini,triton-interpret,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,
+L131,spinning-up-rl__miniswe__deepseek-v3.2,spinning-up-rl,candidate,1,spec_neglect,verification,ANCHORED,ANCHORED,
+L132,sam-cell-seg__terminus2__gemini,sam-cell-seg,candidate,1,spec_neglect,implementation_generation,NOT,ANCHORED,
+L133,configure-git-webserver__openhands__devstral,configure-git-webserver,candidate,1,spec_neglect,task_strategy,NOT,NOT,
+L134,git-multibranch__openhands__kimi,git-multibranch,random_other,8.73,false_premise,task_strategy,NOT,NOT,
+L135,configure-git-webserver__terminus2__gpt5,configure-git-webserver,candidate,1,spec_neglect,verification,NOT,NOT,
+L136,solve-maze-challenge__miniswe__kimi,solve-maze-challenge,candidate,1,knowledge_gap,task_understanding,NOT,NOT,
+L137,protein-assembly__openhands__qwen,protein-assembly,candidate,1,knowledge_gap,spec_violation,ANCHORED,ANCHORED,also: amino-acid sequence instead of a DNA gBlock
+L138,write-compressor__miniswe__kimi,write-compressor,random_other,8.73,capability_limit,task_strategy,NOT,NOT,
+L139,install-windows-3.11__miniswe__kimi,install-windows-3.11,candidate,1,spec_neglect,spec_violation,NOT,NOT,
+L140,write-compressor__miniswe__gpt5,write-compressor,candidate,1,false_premise,constraint_violation,ANCHORED,ANCHORED,
+L141,install-windows-3.11__terminus2__qwen,install-windows-3.11,candidate,1,spec_neglect,task_understanding,NOT,NOT,
+L142,reshard-c4-data__terminus2__gemini,reshard-c4-data,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,
+L143,setup-custom-dev-env__miniswe__gemini,setup-custom-dev-env,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,
+L144,organization-json-generator__openhands__kimi,organization-json-generator,candidate,1,spec_neglect,implementation_generation,NOT,NOT,
+L145,install-windows-3.11__miniswe__devstral,install-windows-3.11,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,
+L146,intrusion-detection__terminus2__kimi,intrusion-detection,candidate,1,spec_neglect,spec_violation,ANCHORED,NOT,implicit
+L147,audio-synth-stft-peaks__terminus2__deepseek-v3.2,audio-synth-stft-peaks,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,
+L148,leelachess0-pytorch-conversion__openhands__deepseek-v3.2,leelachess0-pytorch-conversion,random_other,8.73,knowledge_gap,task_strategy,NOT,NOT,
+L149,speech-to-text__miniswe__qwen,speech-to-text,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,The agent faked the transcription by just hardcoding the prompt's example text.
+L150,winning-avg-corewars__miniswe__qwen,winning-avg-corewars,random_other,8.73,knowledge_gap,task_strategy,NOT,NOT,
+L151,reshard-c4-data__terminus2__devstral,reshard-c4-data,candidate,1,spec_neglect,spec_violation,NOT,ANCHORED,
+L152,find-official-code__openhands__deepseek-v3.2,find-official-code,random_other,8.73,false_premise,task_strategy,ANCHORED,ANCHORED,
+L153,regex-chess__openhands__deepseek-v3.2,regex-chess,random_other,8.73,false_premise,task_strategy,ANCHORED,ANCHORED,
+L154,parallelize-graph__miniswe__gemini,parallelize-graph,random_other,8.73,false_premise,task_strategy,NOT,NOT,
+L155,filter-js-from-html__openhands__claude,filter-js-from-html,random_other,8.73,knowledge_gap,task_strategy,NOT,NOT,
+L156,protein-assembly__terminus2__qwen,protein-assembly,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,also: amino-acid sequence instead of a DNA gBlock
+L157,multi-source-data-merger__miniswe__kimi,multi-source-data-merger,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,env
+L158,setup-custom-dev-env__miniswe__qwen,setup-custom-dev-env,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,
+L159,intrusion-detection__openhands__claude,intrusion-detection,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L160,llm-inference-batching-scheduler__openhands__claude,llm-inference-batching-scheduler,candidate,1,false_premise,spec_violation,NOT,NOT,implicit
+L161,triton-interpret__miniswe__qwen,triton-interpret,candidate,1,spec_neglect,implementation_generation,ANCHORED,ANCHORED,The agent explicitly ignored a negative constraint and hallucinated fake API calls.
+L162,puzzle-solver__terminus2__kimi,puzzle-solver,candidate,1,spec_neglect,spec_violation,NOT,ANCHORED,also implicit: extra BFS layer
+L163,train-fasttext__miniswe__qwen,train-fasttext,candidate,1,false_premise,task_understanding,NOT,NOT,
+L164,intrusion-detection__terminus2__devstral,intrusion-detection,candidate,1,false_premise,spec_violation,NOT,ANCHORED,also: /app/report.json; also implicit: incident report folder
+L165,puzzle-solver__openhands__qwen,puzzle-solver,candidate,1,spec_neglect,implementation_generation,NOT,ANCHORED,also implicit: extra BFS layer
+L166,aimo-airline-departures__miniswe__devstral,aimo-airline-departures,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,
+L167,configure-git-webserver__openhands__claude,configure-git-webserver,random_other,8.73,false_premise,environment_understanding,NOT,NOT,
+L168,add-benchmark-lm-eval-harness__openhands__gemini,add-benchmark-lm-eval-harness,candidate,1,false_premise,spec_violation,ANCHORED,ANCHORED,
+L169,heterogeneous-dates__terminus2__deepseek-v3.2,heterogeneous-dates,random_other,8.73,false_premise,task_strategy,ANCHORED,ANCHORED,The requirement quotes mean: Use the files /app/daily_temp_sf_high.csv and /app/daily_temp_sf_low.csv to calculate the average difference between the daily high and daily low temperatures.
+L170,vul-flask__openhands__devstral,vul-flask,candidate,1,ignored_signal,spec_violation,ANCHORED,ANCHORED,
+L171,speech-to-text__terminus2__kimi,speech-to-text,random_other,8.73,false_premise,recovery_or_search,NOT,NOT,
+L172,add-benchmark-lm-eval-harness__miniswe__qwen,add-benchmark-lm-eval-harness,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,
+L173,incompatible-python-fasttext__miniswe__deepseek-v3.2,incompatible-python-fasttext,random_other,8.73,misread_output,task_strategy,NOT,ANCHORED,also: misread output
+L174,incompatible-python-fasttext__openhands__gpt5,incompatible-python-fasttext,random_other,8.73,false_premise,implementation_application,NOT,NOT,
+L175,vul-flink__terminus2__kimi,vul-flink,random_other,8.73,knowledge_gap,tool_use,NOT,NOT,
+L176,stable-parallel-kmeans__openhands__kimi,stable-parallel-kmeans,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,
+L177,mteb-retrieve__openhands__gemini,mteb-retrieve,candidate,1,spec_neglect,spec_violation,NOT,ANCHORED,
+L178,hf-train-lora-adapter__miniswe__gpt5,hf-train-lora-adapter,candidate,1,knowledge_gap,spec_violation,ANCHORED,ANCHORED,
+L179,puzzle-solver__terminus2__gemini,puzzle-solver,random_other,8.73,capability_limit,implementation_generation,NOT,NOT,
+L180,rare-mineral-allocation__openhands__claude,rare-mineral-allocation,candidate,1,spec_neglect,completion_protocol,NOT,NOT,implicit
+L181,portfolio-optimization__openhands__qwen,portfolio-optimization,random_other,8.73,knowledge_gap,task_strategy,NOT,NOT,
+L182,vul-flink__openhands__devstral,vul-flink,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,env
+L183,rare-mineral-allocation__miniswe__devstral,rare-mineral-allocation,candidate,1,spec_neglect,task_understanding,NOT,NOT,implicit
+L184,mcmc-sampling-stan__miniswe__deepseek-v3.2,mcmc-sampling-stan,candidate,1,knowledge_gap,spec_violation,ANCHORED,ANCHORED,
+L185,build-pov-ray__miniswe__claude,build-pov-ray,candidate,1,knowledge_gap,task_understanding,ANCHORED,ANCHORED,
+L186,bank-trans-filter__miniswe__gemini,bank-trans-filter,random_other,8.73,false_premise,task_strategy,NOT,ANCHORED,
+L187,install-windows-xp__terminus2__claude,install-windows-xp,candidate,1,false_premise,spec_violation,ANCHORED,NOT,implicit
+L188,spinning-up-rl__miniswe__gpt5,spinning-up-rl,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,
+L189,organization-json-generator__terminus2__gpt5,organization-json-generator,candidate,1,spec_neglect,implementation_generation,NOT,NOT,
+L190,triton-interpret__openhands__qwen,triton-interpret,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,
+L191,mteb-retrieve__terminus2__devstral,mteb-retrieve,candidate,1,false_premise,spec_violation,ANCHORED,NOT,implicit
+L192,add-benchmark-lm-eval-harness__miniswe__gemini,add-benchmark-lm-eval-harness,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,env
+L193,count-dataset-tokens__terminus2__kimi,count-dataset-tokens,candidate,1,false_premise,task_understanding,NOT,NOT,
+L194,audio-synth-stft-peaks__terminus2__claude,audio-synth-stft-peaks,candidate,1,spec_neglect,spec_violation,NOT,ANCHORED,also implicit: STFT input signal
+L195,bank-trans-filter__openhands__gemini,bank-trans-filter,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,
+L196,puzzle-solver__openhands__devstral,puzzle-solver,candidate,1,false_premise,spec_violation,UNCLEAR,UNCLEAR,task does not clearly say the rows must be written in chronological order
+L197,cancel-async-tasks__miniswe__qwen,cancel-async-tasks,random_other,8.73,knowledge_gap,completion_protocol,NOT,NOT,
+L198,mteb-retrieve__terminus2__kimi,mteb-retrieve,candidate,1,knowledge_gap,spec_violation,ANCHORED,NOT,implicit
+L199,pytorch-model-cli__openhands__qwen,pytorch-model-cli,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,also: binary executable
+L200,count-dataset-tokens__miniswe__kimi,count-dataset-tokens,candidate,1,spec_neglect,task_understanding,NOT,NOT,
+L201,install-windows-xp__openhands__deepseek-v3.2,install-windows-xp,random_other,8.73,ignored_signal,task_strategy,NOT,NOT,
+L202,multi-source-data-merger__openhands__gemini,multi-source-data-merger,candidate,1,spec_neglect,implementation_generation,NOT,NOT,
+L203,vul-flask__miniswe__kimi,vul-flask,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,"The agent substituted the core requirement (patching the vulnerability in the existing path) by creating an alternative, unused safe API, abandoning the actual fix."
+L204,organization-json-generator__openhands__gpt5,organization-json-generator,candidate,1,false_premise,task_understanding,NOT,NOT,
+L205,extract-elf__openhands__gpt5,extract-elf,random_other,8.73,false_premise,task_strategy,NOT,NOT,
+L206,chem-rf__miniswe__claude,chem-rf,candidate,1,ignored_signal,spec_violation,NOT,NOT,
+L207,count-call-stack__terminus2__gpt5,count-call-stack,candidate,1,premature_action,task_understanding,NOT,NOT,
+L208,puzzle-solver__terminus2__claude,puzzle-solver,candidate,1,spec_neglect,implementation_generation,NOT,ANCHORED,also implicit: extra BFS layer
+L209,audio-synth-stft-peaks__openhands__gpt5,audio-synth-stft-peaks,candidate,1,false_premise,task_understanding,NOT,NOT,
+L210,play-zork-easy__terminus2__gpt5,play-zork-easy,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,
+L211,build-pov-ray__openhands__qwen,build-pov-ray,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,"The agent explicitly substituted the required software version (2.2 from source) with an easier, unrequested alternative (3.7 from apt)."
+L212,audio-synth-stft-peaks__openhands__deepseek-v3.2,audio-synth-stft-peaks,random_other,8.73,capability_limit,implementation_generation,NOT,NOT,
+L213,mcmc-sampling-stan__miniswe__gpt5,mcmc-sampling-stan,candidate,1,false_premise,spec_violation,NOT,ANCHORED,
+L214,protein-assembly__openhands__deepseek-v3.2,protein-assembly,candidate,1,false_premise,task_understanding,ANCHORED,NOT,"The agent explicitly substituted the required proteins derived from the SMILES/FASTA data with incorrect, hardcoded proteins"
+L215,create-bucket__miniswe__gemini,create-bucket,random_other,8.73,false_premise,task_strategy,ANCHORED,ANCHORED,"The agent knew it failed to create the bucket due to a credential error and submitted anyway, abandoning the goal."
+L216,incompatible-python-fasttext__openhands__qwen,incompatible-python-fasttext,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,The agent substituted the explicit location constraint (default system-wide Python) with an alternative Python path (/usr/local/bin/python3).
+L217,parallelize-graph__terminus2__kimi,parallelize-graph,random_other,8.73,capability_limit,implementation_generation,NOT,NOT,
+L218,audio-synth-stft-peaks__miniswe__claude,audio-synth-stft-peaks,candidate,1,false_premise,task_understanding,NOT,ANCHORED,
+L219,filter-js-from-html__openhands__devstral,filter-js-from-html,random_other,8.73,other,completion_protocol,NOT,NOT,
+L220,sam-cell-seg__miniswe__deepseek-v3.2,sam-cell-seg,candidate,1,spec_neglect,implementation_generation,NOT,ANCHORED,
+L221,count-dataset-tokens__terminus2__claude,count-dataset-tokens,candidate,1,spec_neglect,task_understanding,NOT,NOT,
+L222,intrusion-detection__terminus2__gemini,intrusion-detection,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,"also: echo the word ""invalid"""
+L223,setup-custom-dev-env__terminus2__qwen,setup-custom-dev-env,candidate,1,spec_neglect,completion_protocol,ANCHORED,ANCHORED,The agent completely forgot to execute the required chsh command.
+L224,mteb-eval__miniswe__claude,mteb-eval,candidate,1,false_premise,spec_violation,ANCHORED,ANCHORED,The agent faked the result rather than actually running the MTEB evaluation.
+L225,filter-js-from-html__openhands__qwen,filter-js-from-html,candidate,1,spec_neglect,task_strategy,NOT,NOT,
+L226,mlflow-register__openhands__gemini,mlflow-register,random_other,8.73,other,verification,NOT,NOT,
+L227,triton-interpret__miniswe__gemini,triton-interpret,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,"The agent explicitly acknowledged a negative constraint (""don't use tl.sum"") and chose to ignore it because it lacked the domain knowledge to solve it otherwise."
+L228,parallelize-graph__openhands__kimi,parallelize-graph,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,The agent substituted the required technology constraint (UPC) with an alternative (pthreads) due to network environment obstacles.
+L229,acl-permissions-inheritance__miniswe__gemini,acl-permissions-inheritance,candidate,1,misread_output,spec_violation,NOT,ANCHORED,
+L230,add-benchmark-lm-eval-harness__miniswe__devstral,add-benchmark-lm-eval-harness,candidate,1,knowledge_gap,spec_violation,ANCHORED,ANCHORED,
+L231,bank-trans-filter__terminus2__qwen,bank-trans-filter,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,
+L232,puzzle-solver__terminus2__devstral,puzzle-solver,candidate,1,knowledge_gap,spec_violation,NOT,ANCHORED,also implicit: extra BFS layer
+L233,aimo-airline-departures__terminus2__qwen,aimo-airline-departures,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,"The agent ignored a specific constraint, dropping the requirement to test all offsets and instead only testing offset 0."
+L234,chess-best-move__openhands__qwen,chess-best-move,candidate,1,knowledge_gap,task_understanding,ANCHORED,ANCHORED,The agent faked the move after failing to use OCR on the image.
+L235,neuron-to-jaxley-conversion__terminus2__gemini,neuron-to-jaxley-conversion,random_other,8.73,knowledge_gap,implementation_generation,NOT,NOT,
+L236,add-benchmark-lm-eval-harness__openhands__deepseek-v3.2,add-benchmark-lm-eval-harness,candidate,1,premature_action,spec_violation,ANCHORED,ANCHORED,env
+L237,openssl-selfsigned-cert__terminus2__devstral,openssl-selfsigned-cert,candidate,1,spec_neglect,spec_violation,NOT,NOT,
+L238,play-zork-easy__miniswe__gpt5,play-zork-easy,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,
+L239,distribution-search__openhands__claude,distribution-search,random_other,8.73,knowledge_gap,algorithm_design,NOT,NOT,
+L240,regex-chess__miniswe__gpt5,regex-chess,candidate,1,spec_neglect,solution_scope,ANCHORED,ANCHORED,
+L241,create-bucket__openhands__gpt5,create-bucket,candidate,1,spec_neglect,task_understanding,NOT,NOT,
+L242,build-cython-ext__terminus2__claude,build-cython-ext,candidate,1,spec_neglect,spec_violation,NOT,ANCHORED,
+L243,git-leak-recovery__openhands__gemini,git-leak-recovery,random_other,8.73,false_premise,task_strategy,ANCHORED,ANCHORED,
+L244,add-benchmark-lm-eval-harness__miniswe__gpt5,add-benchmark-lm-eval-harness,candidate,1,false_premise,spec_neglect,NOT,NOT,
+L245,mteb-eval__openhands__devstral,mteb-eval,candidate,1,knowledge_gap,spec_violation,ANCHORED,ANCHORED,
+L246,neuron-to-jaxley-conversion__terminus2__qwen,neuron-to-jaxley-conversion,random_other,8.73,knowledge_gap,implementation_generation,NOT,NOT,
+L247,neuron-to-jaxley-conversion__miniswe__claude,neuron-to-jaxley-conversion,random_other,8.73,knowledge_gap,implementation_generation,ANCHORED,NOT,The agent faked a passing validation script output instead of actually executing the required biophysics model.
+L248,count-dataset-tokens__miniswe__gpt5,count-dataset-tokens,candidate,1,false_premise,task_understanding,NOT,NOT,
+L249,sam-cell-seg__openhands__gemini,sam-cell-seg,candidate,1,spec_neglect,implementation_generation,NOT,ANCHORED,
+L250,audio-synth-stft-peaks__openhands__devstral,audio-synth-stft-peaks,candidate,1,spec_neglect,completion_protocol,NOT,NOT,implicit
+L251,install-windows-3.11__miniswe__deepseek-v3.2,install-windows-3.11,candidate,1,knowledge_gap,spec_violation,NOT,NOT,
+L252,pytorch-model-cli__terminus2__qwen,pytorch-model-cli,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,env; also: binary executable
+L253,mahjong-winninghand__miniswe__gemini,mahjong-winninghand,candidate,1,false_premise,spec_violation,NOT,NOT,
+L254,ilp-solver__miniswe__gemini,ilp-solver,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,"The task asked for a specific format placeholder structure. The agent dropped the ""placeholder"" nature of the requirement and output literal brackets. This violates the intent of the written text by replacing the required value (y) with a bracketed string ([y])."
+L255,organization-json-generator__miniswe__gemini,organization-json-generator,candidate,1,knowledge_gap,spec_violation,NOT,NOT,
+L256,count-dataset-tokens__terminus2__devstral,count-dataset-tokens,candidate,1,spec_neglect,task_strategy,NOT,NOT,implicit
+L257,audio-synth-stft-peaks__terminus2__devstral,audio-synth-stft-peaks,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,
+L258,intrusion-detection__openhands__kimi,intrusion-detection,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L259,reshard-c4-data__openhands__gemini,reshard-c4-data,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,"The agent successfully created the deliverables but then deleted them. Since the task text requires creating those specific artifacts in that path, deleting them is abandoning the requirement before completion."
+L260,gomoku-planner__miniswe__deepseek-v3.2,gomoku-planner,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,"The agent hit a wall with pip, gave up on actually analyzing the image, and substituted a blind guess for a calculated result."
+L261,rare-mineral-allocation__terminus2__gemini,rare-mineral-allocation,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L262,hf-lora-adapter__miniswe__claude,hf-lora-adapter,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,The agent hit an environmental wall (PyTorch timeouts) and knowingly fabricated/mocked the entire solution instead of implementing the required model pipeline.
+L263,path-tracing__miniswe__deepseek-v3.2,path-tracing,candidate,1,knowledge_gap,wrong_problem_formulation,NOT,NOT,
+L264,build-cython-ext__miniswe__kimi,build-cython-ext,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,"The agent ignored a highly specific instruction detailing where the installation must occur, doing it in a local virtualenv instead of the stated system global environment"
+L265,mlflow-register__openhands__qwen,mlflow-register,candidate,1,spec_neglect,spec_violation,NOT,NOT,
+L266,chem-rf__openhands__gpt5,chem-rf,candidate,1,spec_neglect,task_understanding,NOT,NOT,implicit
+L267,rare-mineral-allocation__miniswe__deepseek-v3.2,rare-mineral-allocation,candidate,1,spec_neglect,completion_protocol,NOT,NOT,implicit
+L268,movie-helper__miniswe__kimi,movie-helper,candidate,1,spec_neglect,task_understanding,NOT,NOT,
+L269,rare-mineral-allocation__openhands__deepseek-v3.2,rare-mineral-allocation,candidate,1,spec_neglect,completion_protocol,NOT,NOT,implicit
+L270,count-call-stack__terminus2__claude,count-call-stack,candidate,1,misread_output,task_understanding,NOT,NOT,
+L271,count-dataset-tokens__openhands__claude,count-dataset-tokens,candidate,1,spec_neglect,task_understanding,NOT,NOT,implicit
+L272,mlflow-register__miniswe__devstral,mlflow-register,candidate,1,knowledge_gap,spec_violation,NOT,NOT,
+L273,aimo-airline-departures__miniswe__qwen,aimo-airline-departures,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,
+L274,mlflow-register__miniswe__qwen,mlflow-register,candidate,1,false_premise,spec_violation,ANCHORED,ANCHORED,env
+L275,intrusion-detection__miniswe__gemini,intrusion-detection,candidate,1,false_premise,spec_violation,ANCHORED,ANCHORED,also implicit: incident report folder
+L276,sam-cell-seg__openhands__claude,sam-cell-seg,candidate,1,spec_neglect,verification,NOT,ANCHORED,also implicit: coordinates as lists
+L277,install-windows-3.11__openhands__kimi,install-windows-3.11,candidate,1,spec_neglect,spec_violation,NOT,NOT,
+L278,llm-inference-batching-scheduler__miniswe__claude,llm-inference-batching-scheduler,candidate,1,false_premise,spec_violation,NOT,NOT,implicit
+L279,rare-mineral-allocation__openhands__gpt5,rare-mineral-allocation,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L280,aimo-airline-departures__miniswe__kimi,aimo-airline-departures,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,"The agent ignored the explicit ""arbitrary offset/regardless of departure times"" constraint, replacing it with a hardcoded offset=0 constraint."
+L281,path-tracing__terminus2__gpt5,path-tracing,candidate,1,false_premise,spec_violation,ANCHORED,ANCHORED,
+L282,reshard-c4-data__miniswe__devstral,reshard-c4-data,candidate,1,false_premise,spec_violation,NOT,ANCHORED,
+L283,pandas-etl__openhands__qwen,pandas-etl,candidate,1,spec_neglect,implementation_generation,NOT,NOT,implicit
+L284,mcmc-sampling-stan__miniswe__kimi,mcmc-sampling-stan,candidate,1,knowledge_gap,spec_violation,ANCHORED,ANCHORED,also: Install the RStan package (version 2.32.7)
+L285,cancel-async-tasks__miniswe__gemini,cancel-async-tasks,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,
+L286,puzzle-solver__terminus2__qwen,puzzle-solver,candidate,1,spec_neglect,spec_violation,NOT,ANCHORED,also: Each layer file must have corresponding L{depth}.sha; also implicit: extra BFS layer
+L287,organization-json-generator__terminus2__kimi,organization-json-generator,candidate,1,spec_neglect,implementation_generation,NOT,NOT,
+L288,build-cython-ext__openhands__devstral,build-cython-ext,random_other,8.73,false_premise,file_localization,NOT,NOT,
+L289,modernize-fortran-build__miniswe__gemini,modernize-fortran-build,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,
+L290,mcmc-sampling-stan__terminus2__gpt5,mcmc-sampling-stan,random_other,8.73,ignored_signal,recovery_or_search,NOT,NOT,
+L291,rare-mineral-allocation__openhands__qwen,rare-mineral-allocation,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L292,build-cython-ext__openhands__deepseek-v3.2,build-cython-ext,candidate,1,spec_neglect,completion_protocol,NOT,NOT,
+L293,rare-mineral-allocation__miniswe__qwen,rare-mineral-allocation,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L294,path-tracing-reverse__openhands__claude,path-tracing-reverse,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,"The agent completely forgot to write the required output file, spending its whole budget on reconnaissance and abandoning the core requirement."
+L295,build-pov-ray__openhands__claude,build-pov-ray,random_other,8.73,knowledge_gap,task_strategy,ANCHORED,ANCHORED,The agent hit an environment wall (couldn't find v2.2 archives) and deliberately faked the solution by substituting a completely different version (v3.7) to pretend it complied.
+L296,build-cython-ext__miniswe__deepseek-v3.2,build-cython-ext,candidate,1,spec_neglect,spec_neglect,NOT,NOT,implicit
+L297,organization-json-generator__terminus2__gemini,organization-json-generator,candidate,1,spec_neglect,task_strategy,NOT,NOT,
+L298,protein-assembly__terminus2__gemini,protein-assembly,random_other,8.73,false_premise,task_strategy,NOT,NOT,
+L299,chess-best-move__openhands__claude,chess-best-move,candidate,1,knowledge_gap,task_understanding,ANCHORED,ANCHORED,The agent hit an environment wall with image perception and faked the board position to generate a move.
+L300,constraints-scheduling__miniswe__claude,constraints-scheduling,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,"The agent hit a wall (not finding the constraints document) and invoked the ""Made-up Data"" tie-breaker. By hallucinating fake constraints rather than using the actual ones, it dropped the written requirement."
+L301,path-tracing-reverse__miniswe__deepseek-v3.2,path-tracing-reverse,random_other,8.73,misread_output,output_interpretation,NOT,NOT,
+L302,sam-cell-seg__miniswe__devstral,sam-cell-seg,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,also: there should be no overlap between masks; output_path treated as a folder
+L303,sam-cell-seg__miniswe__gemini,sam-cell-seg,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,also: output_path treated as a folder
+L304,audio-synth-stft-peaks__miniswe__deepseek-v3.2,audio-synth-stft-peaks,candidate,1,false_premise,spec_violation,NOT,ANCHORED,also implicit: STFT on the float signal
+L305,puzzle-solver__openhands__claude,puzzle-solver,candidate,1,knowledge_gap,task_understanding,NOT,NOT,
+L306,mlflow-register__openhands__kimi,mlflow-register,candidate,1,spec_neglect,spec_violation,ANCHORED,NOT,implicit
+L307,parallelize-graph__openhands__qwen,parallelize-graph,candidate,1,environment_obstacle_mishandled,spec_compliance,ANCHORED,ANCHORED,"Exact same failure pattern as L389. The agent faced network errors installing the UPC compiler and deliberately abandoned the required technology constraint, substituting it for pthreads."
+L308,build-pov-ray__terminus2__gpt5,build-pov-ray,random_other,8.73,false_premise,environment_interaction,NOT,NOT,
+L309,mteb-retrieve__miniswe__gemini,mteb-retrieve,candidate,1,spec_neglect,spec_violation,ANCHORED,NOT,implicit
+L310,rare-mineral-allocation__terminus2__qwen,rare-mineral-allocation,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L311,extract-elf__openhands__qwen,extract-elf,candidate,1,spec_neglect,task_understanding,NOT,NOT,
+L312,write-compressor__miniswe__deepseek-v3.2,write-compressor,candidate,1,knowledge_gap,task_understanding,NOT,NOT,
+L313,sqlite-db-truncate__miniswe__qwen,sqlite-db-truncate,random_other,8.73,knowledge_gap,task_strategy,NOT,NOT,
+L314,intrusion-detection__miniswe__qwen,intrusion-detection,candidate,1,spec_neglect,task_understanding,NOT,NOT,implicit
+L315,triton-interpret__terminus2__devstral,triton-interpret,candidate,1,ignored_signal,spec_violation,ANCHORED,ANCHORED,"The agent hit a wall, recognized its math for the required RMSNorm was totally wrong, but chose to proceed with the wrong math just to have a runnable kernel. It substituted the required correct mathematical transformation for an incorrect one."
+L316,add-benchmark-lm-eval-harness__terminus2__claude,add-benchmark-lm-eval-harness,candidate,1,false_premise,spec_violation,NOT,ANCHORED,also implicit: YAML fields
+L317,gpt2-codegolf__terminus2__gemini,gpt2-codegolf,random_other,8.73,false_premise,planning,NOT,NOT,
+L318,leelachess0-pytorch-conversion__openhands__qwen,leelachess0-pytorch-conversion,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,"The agent hit environment walls (dependency issues) and abandoned the requirement to convert the actual model weights, faking the conversion by creating a random, empty PyTorch model instead."
+L319,intrusion-detection__miniswe__devstral,intrusion-detection,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,"also: echo the word ""invalid"""
+L320,acl-permissions-inheritance__terminus2__kimi,acl-permissions-inheritance,candidate,1,spec_neglect,task_understanding,ANCHORED,NOT,"Check 2 (""ignored, forgot, misread""). If an agent literally never reads the explicit requirements and just makes up its own, it has ignored the requirements as written."
+L321,pytorch-model-cli__openhands__deepseek-v3.2,pytorch-model-cli,candidate,1,spec_neglect,spec_violation,NOT,ANCHORED,
+L322,play-zork-easy__terminus2__qwen,play-zork-easy,candidate,1,misread_output,spec_violation,NOT,ANCHORED,env
+L323,triton-interpret__openhands__devstral,triton-interpret,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,"The agent explicitly recognized the negative constraints (no PyTorch operations allowed) and chose to ignore them to bypass a technical wall, substituting forbidden operations into its solution."
+L324,build-linux-kernel-qemu__terminus2__gemini,build-linux-kernel-qemu,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,"The agent read the prompt but decided half of the instructions were for ""the user"" instead of itself, completely dropping the requirement to generate the initramfs."
+L325,sam-cell-seg__miniswe__qwen,sam-cell-seg,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,"The agent explicitly substituted the mandated tool (MobileSAM) for generic SAM, and then abandoned the core machine learning requirement entirely by stripping out model usage"
+L326,mteb-leaderboard__openhands__devstral,mteb-leaderboard,candidate,1,spec_neglect,task_strategy,NOT,NOT,Agent aimed at finding the answer but chose an ineffective local search; the task does not state how to look it up.
+L327,neuron-to-jaxley-conversion__openhands__gpt5,neuron-to-jaxley-conversion,candidate,1,spec_neglect,task_understanding,NOT,NOT,
+L328,path-tracing__terminus2__deepseek-v3.2,path-tracing,random_other,8.73,false_premise,reasoning,NOT,NOT,
+L329,chess-best-move__miniswe__claude,chess-best-move,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,"The agent didn't try and fail to read the image; it knowingly abandoned the provided image and hardcoded a completely fake, unrelated board state to force an output."
+L330,triton-interpret__terminus2__qwen,triton-interpret,candidate,1,spec_neglect,implementation_generation,ANCHORED,ANCHORED,"The evidence quote identifies the agent's use of tl.sum, which violates the stated requirement.
+"
+L331,build-cython-ext__terminus2__qwen,build-cython-ext,candidate,1,spec_neglect,verification,ANCHORED,NOT,"The task explicitly named three extensions to downgrade. The agent skipped fixing one of them (ccomplexity.pyx) entirely, violating Check 2 (narrowed or gave up on a stated requirement)."
+L332,portfolio-optimization__openhands__gemini,portfolio-optimization,random_other,8.73,ignored_signal,verification,NOT,NOT,
+L333,mlflow-register__miniswe__gpt5,mlflow-register,candidate,1,spec_neglect,task_understanding,ANCHORED,NOT,implicit
+L334,build-pov-ray__miniswe__gemini,build-pov-ray,candidate,1,spec_neglect,spec_violation,NOT,NOT,
+L335,chess-best-move__miniswe__gpt5,chess-best-move,candidate,1,capability_limit,task_understanding,ANCHORED,ANCHORED,"Exact same failure as previous chess instances (L378, L329). The agent hit an environmental wall with image perception and deliberately abandoned the provided board, fabricating a generic opening move instead."
+L336,cpp-compatibility__openhands__devstral,cpp-compatibility,candidate,1,spec_neglect,implementation_generation,ANCHORED,ANCHORED,"The agent explicitly dropped part of the required interface (constexpr) to force C++11 compatibility, instead of doing the harder work to maintain the interface as requested."
+L337,rare-mineral-allocation__miniswe__claude,rare-mineral-allocation,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L338,puzzle-solver__openhands__deepseek-v3.2,puzzle-solver,candidate,1,spec_neglect,spec_violation,UNCLEAR,UNCLEAR,task text does not clearly specify these exact formatting/termination details
+L339,count-call-stack__miniswe__kimi,count-call-stack,candidate,1,misread_output,task_understanding,NOT,NOT,
+L340,intrusion-detection__openhands__gpt5,intrusion-detection,candidate,1,spec_neglect,spec_violation,NOT,NOT,implicit
+L341,movie-helper__terminus2__devstral,movie-helper,random_other,8.73,capability_limit,implementation_generation,NOT,NOT,
+L342,mteb-retrieve__openhands__claude,mteb-retrieve,candidate,1,spec_neglect,spec_violation,ANCHORED,NOT,implicit
+L343,play-zork-easy__miniswe__qwen,play-zork-easy,candidate,1,false_premise,spec_violation,ANCHORED,ANCHORED,env
+L344,vul-flask__openhands__claude,vul-flask,candidate,1,knowledge_gap,spec_violation,ANCHORED,ANCHORED,"The agent abandoned fixing the existing vulnerability (the core requirement of patching SSTI in the framework) and chose to write a completely separate, unused ""safe"" function instead."
+L345,aimo-airline-departures__miniswe__deepseek-v3.2,aimo-airline-departures,candidate,1,knowledge_gap,task_understanding,NOT,NOT,Failed due to algorithmic logic error / missing domain knowledge regarding periodic scheduling math.
+L346,movie-helper__openhands__devstral,movie-helper,candidate,1,spec_neglect,task_strategy,NOT,NOT,
+L347,extract-moves-from-video__miniswe__kimi,extract-moves-from-video,random_other,8.73,environment_obstacle_mishandled,environment_setup,ANCHORED,ANCHORED,"Hit an IP/auth block from YouTube and substituted the required transcription data with completely fabricated, made-up data."
+L348,build-linux-kernel-qemu__openhands__gemini,build-linux-kernel-qemu,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,The agent ignored the explicit command instruction (gen_init_cpio with the provided .list file) and substituted its own method (standard cpio).
+L349,rare-mineral-allocation__openhands__kimi,rare-mineral-allocation,candidate,1,spec_neglect,completion_protocol,NOT,NOT,implicit
+L350,build-cython-ext__openhands__gemini,build-cython-ext,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,"The requirement explicitly requires compatibility with the existing Numpy 2.3.0, but the agent attempted to downgrade Numpy instead of fixing the source."
+L351,count-dataset-tokens__openhands__devstral,count-dataset-tokens,candidate,1,false_premise,task_understanding,UNCLEAR,UNCLEAR,"The requirement is ambiguous about which fields constitute “deepseek tokens,” leading the agent to count the problem field; additionally, the agent failed to write the resulting integer to /app/answer.txt. Which is both requirement and agent fault"
+L352,install-windows-3.11__openhands__deepseek-v3.2,install-windows-3.11,candidate,1,false_premise,task_understanding,NOT,NOT,The requirement doesn't explicitly say “use -monitor unix:/tmp/qemu-monitor.sock” or “use websockify + noVNC.” Those are implementation details. The agent was responsible for finding an implementation that actually satisfies the stated functionality.
+L353,mteb-leaderboard__miniswe__devstral,mteb-leaderboard,random_other,8.73,knowledge_gap,task_strategy,ANCHORED,ANCHORED,"wrong year, requirement mentioned 2015 and failed to satisfy the requirement"
+L354,add-benchmark-lm-eval-harness__terminus2__devstral,add-benchmark-lm-eval-harness,candidate,1,knowledge_gap,spec_violation,NOT,NOT,implicit
+L355,vul-flink__miniswe__devstral,vul-flink,candidate,1,spec_neglect,spec_violation,UNCLEAR,UNCLEAR,"Explanation identifies the skipped distribution rebuild, while mistake_quote identifies the incomplete regex sanitization; the decisive mistake is unclear."
+L356,play-zork-easy__miniswe__claude,play-zork-easy,candidate,1,false_premise,spec_violation,NOT,ANCHORED,agent is missing domain knowledge
+L357,ilp-solver__openhands__kimi,ilp-solver,candidate,1,spec_neglect,spec_violation,NOT,NOT,"the agent was aiming at the requirement but failed because of a ""bug in its code"""
+L358,acl-permissions-inheritance__terminus2__deepseek-v3.2,acl-permissions-inheritance,random_other,8.73,capability_limit,implementation,ANCHORED,NOT,
+L359,hf-train-lora-adapter__terminus2__kimi,hf-train-lora-adapter,candidate,1,spec_neglect,implementation_generation,NOT,NOT,implicit
+L360,count-call-stack__miniswe__gpt5,count-call-stack,random_other,8.73,false_premise,implementation_generation,NOT,NOT,
+L361,git-multibranch__terminus2__claude,git-multibranch,candidate,1,spec_neglect,implementation_generation,NOT,NOT,the agent was aiming at serving the correct URL but failed due to unstated directory structure expectations
+L362,count-dataset-tokens__terminus2__gemini,count-dataset-tokens,candidate,1,false_premise,spec_violation,ANCHORED,ANCHORED,also implicit: counted only deepseek_solution
+L363,hf-train-lora-adapter__openhands__claude,hf-train-lora-adapter,random_other,8.73,false_premise,environment_setup,NOT,ANCHORED,
+L364,chess-best-move__terminus2__gpt5,chess-best-move,candidate,1,false_premise,task_understanding,NOT,NOT,
+L365,movie-helper__miniswe__devstral,movie-helper,candidate,1,false_premise,task_understanding,NOT,NOT,
+L366,portfolio-optimization__openhands__kimi,portfolio-optimization,random_other,8.73,knowledge_gap,task_strategy,NOT,NOT,
+L367,query-optimize__terminus2__devstral,query-optimize,random_other,8.73,false_premise,verification,NOT,NOT,
+L368,count-call-stack__miniswe__gemini,count-call-stack,candidate,1,false_premise,task_understanding,NOT,NOT,
+L369,protein-assembly__miniswe__deepseek-v3.2,protein-assembly,candidate,1,spec_neglect,requirement_misinterpretation,NOT,ANCHORED,
+L370,chess-best-move__miniswe__kimi,chess-best-move,candidate,1,capability_limit,task_understanding,ANCHORED,ANCHORED,
+L371,winning-avg-corewars__miniswe__gemini,winning-avg-corewars,random_other,8.73,knowledge_gap,implementation_generation,NOT,NOT,"The agent aimed to build a multi-strategy warrior to win the matches, but failed due to a lack of domain knowledge regarding Redcode-94 opcodes. A classic knowledge-gap execution failure."
+L372,mteb-retrieve__miniswe__devstral,mteb-retrieve,candidate,1,spec_neglect,spec_violation,NOT,NOT,"The agent aimed at the correct mathematical output but bypassed the mteb package in favor of generic SentenceTransformer, causing it to miss the exact baseline score the hidden test checked against."
+L373,movie-helper__openhands__kimi,movie-helper,candidate,1,false_premise,task_understanding,NOT,NOT,"The prompt uses vague, narrative language (""generate new data that closely resembles...""). The agent aimed at the text as written but lacked the domain translation knowledge to recognize it was a matrix completion problem via nuclear-norm minimization."
+L374,chess-best-move__terminus2__deepseek-v3.2,chess-best-move,candidate,1,false_premise,task_understanding,NOT,NOT,"This agent actually tried to process the image using brightness/pixel-color heuristics to assign pieces. It failed completely and produced a garbage FEN string due to a lack of proper computer vision capability, but it was actively aiming at analyzing the image."
+L375,gpt2-codegolf__openhands__devstral,gpt2-codegolf,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,"The agent hit a constraint (5000 bytes limit) and decided to ""solve"" it by knowingly dropping the core functional requirement of actually loading the checkpoint data. It substituted the required data with made-up (random) initialization"
+L376,modernize-fortran-build__miniswe__gpt5,modernize-fortran-build,random_other,8.73,misread_output,completion_protocol,NOT,NOT,The agent was actively aiming at the build requirement. It failed due to an environment/compilation error (overly strict -std=f2008 flag) and then suffered an execution logic bug by misreading the empty terminal output as success.
+L377,path-tracing-reverse__openhands__deepseek-v3.2,path-tracing-reverse,candidate,1,spec_neglect,task_strategy,ANCHORED,ANCHORED,
+L378,chess-best-move__miniswe__qwen,chess-best-move,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,env
+L379,reshard-c4-data__openhands__gpt5,reshard-c4-data,candidate,1,spec_neglect,implementation_generation,NOT,ANCHORED,"The agent was trying to implement the decompression logic. It successfully rebuilt the file contents but missed the cleanup/metadata deletion. Because ""reconstruct the original file structure and content exactly"" is a complex technical goal that the agent partially achieved but failed to perfect, this is an execution failure, not a dropped requirement."
+L380,rare-mineral-allocation__terminus2__gpt5,rare-mineral-allocation,candidate,1,spec_neglect,completion_protocol,NOT,NOT,implicit
+L381,count-call-stack__terminus2__gemini,count-call-stack,random_other,8.73,false_premise,task_strategy,NOT,NOT,"The agent actively tried to meet the format and count requirements but failed due to a flawed assumption in its bash pipeline logic (grep -A 3 | paste), which misaligned multi-line frames. This is a pure coding execution failure."
+L382,play-zork-easy__miniswe__kimi,play-zork-easy,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,"The agent hit a wall (repeated grue deaths) and abandoned the requirement to reach the actual end, substituting a ""quit"" message for the required ending message."
+L383,chess-best-move__terminus2__qwen,chess-best-move,candidate,1,knowledge_gap,task_understanding,NOT,NOT,
+L384,write-compressor__terminus2__gpt5,write-compressor,random_other,8.73,capability_limit,implementation_generation,NOT,NOT,
+L385,heterogeneous-dates__terminus2__qwen,heterogeneous-dates,candidate,1,spec_neglect,spec_violation,NOT,NOT,
+L386,install-windows-3.11__miniswe__gemini,install-windows-3.11,candidate,1,ignored_signal,spec_violation,ANCHORED,ANCHORED,The agent explicitly saw the requirement but knowingly substituted it with port 5902/display :2 to bypass a local environment obstacle.
+L387,organization-json-generator__miniswe__devstral,organization-json-generator,random_other,8.73,false_premise,implementation_generation,NOT,NOT,
+L388,gpt2-codegolf__miniswe__deepseek-v3.2,gpt2-codegolf,random_other,8.73,false_premise,task_strategy,ANCHORED,ANCHORED,"The agent decided the task was too hard, dropped the core requirement of reading the weights to predict output, and substituted made-up (random placeholder) data."
+L389,parallelize-graph__miniswe__deepseek-v3.2,parallelize-graph,candidate,1,environment_obstacle_mishandled,requirement_abandonment,ANCHORED,ANCHORED,"Due to environment frustration (slow compiler), the agent explicitly swapped the mandated technology (UPC) for a different one (pthreads), targeting a different version of the solution"
+L390,install-windows-3.11__miniswe__claude,install-windows-3.11,candidate,1,spec_neglect,spec_violation,NOT,NOT,
+L391,chess-best-move__openhands__kimi,chess-best-move,candidate,1,knowledge_gap,task_understanding,NOT,ANCHORED,"The agent aimed to analyze the board but fell into a doomed execution loop because it thought pixel thresholding could identify pieces. It failed due to missing domain knowledge/tools, not because it gave up on analyzing the image."
+L392,play-zork-easy__miniswe__deepseek-v3.2,play-zork-easy,random_other,8.73,knowledge_gap,domain_knowledge,NOT,NOT,"The agent wrote a script to finish Zork, aiming exactly at the requirement. It failed because it didn't know where the lantern was and got eaten by grues. This is pure missing domain knowledge."
+L393,audio-synth-stft-peaks__miniswe__gemini,audio-synth-stft-peaks,candidate,1,false_premise,spec_violation,NOT,ANCHORED,also implicit: STFT input signal
+L394,protein-assembly__miniswe__qwen,protein-assembly,candidate,1,false_premise,task_understanding,ANCHORED,ANCHORED,also: amino-acid sequence instead of a DNA gBlock
+L395,fix-ocaml-gc__terminus2__qwen,fix-ocaml-gc,random_other,8.73,false_premise,implementation_generation,NOT,NOT,
+L396,flood-monitoring-basic__terminus2__devstral,flood-monitoring-basic,random_other,8.73,capability_limit,implementation_generation,NOT,NOT,
+L397,triton-interpret__openhands__deepseek-v3.2,triton-interpret,random_other,8.73,knowledge_gap,implementation_generation,NOT,NOT,
+L398,mteb-retrieve__openhands__gpt5,mteb-retrieve,candidate,1,spec_neglect,task_understanding,ANCHORED,NOT,implicit
+L399,count-dataset-tokens__miniswe__gemini,count-dataset-tokens,candidate,1,environment_obstacle_mishandled,spec_violation,ANCHORED,ANCHORED,"This is the exact same substitution failure as L362. Faced with a difficult environment (slow PyTorch downloads), the agent chose to substitute the required tokenizer for a completely different one (GPT-2). The tie-breaker easily applies: if its code worked perfectly, it would give the token count for GPT-2, not Qwen2.5."
+L400,audio-synth-stft-peaks__miniswe__devstral,audio-synth-stft-peaks,candidate,1,false_premise,spec_violation,NOT,ANCHORED,
+L401,mteb-retrieve__miniswe__claude,mteb-retrieve,candidate,1,spec_neglect,spec_violation,ANCHORED,ANCHORED,also implicit: mteb interface
+L402,path-tracing__miniswe__devstral,path-tracing,random_other,8.73,false_premise,task_strategy,NOT,NOT,
+L403,leelachess0-pytorch-conversion__openhands__gpt5,leelachess0-pytorch-conversion,candidate,1,false_premise,task_understanding,NOT,NOT,
+L404,git-multibranch__miniswe__qwen,git-multibranch,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,
+L405,reshard-c4-data__openhands__deepseek-v3.2,reshard-c4-data,candidate,1,spec_neglect,task_understanding,ANCHORED,ANCHORED,evidence: record says no reverse-mapping metadata
+L406,chess-best-move__openhands__devstral,chess-best-move,random_other,8.73,knowledge_gap,task_strategy,NOT,NOT,
+L407,count-dataset-tokens__terminus2__gpt5,count-dataset-tokens,candidate,1,false_premise,task_understanding,NOT,NOT,
+L408,setup-custom-dev-env__openhands__gemini,setup-custom-dev-env,candidate,1,spec_neglect,spec_compliance,ANCHORED,ANCHORED,
+L409,protein-assembly__openhands__devstral,protein-assembly,candidate,1,knowledge_gap,task_understanding,NOT,NOT,"The agent failed at the decisive mistake (Step 13) because it misidentified the chemical SMILES string as methotrexate instead of benzylguanine. Even though it fabricated a result later, the decisive mistake was a failure of biological domain knowledge."
+L410,mcmc-sampling-stan__openhands__claude,mcmc-sampling-stan,candidate,1,premature_action,spec_violation,NOT,ANCHORED,
+L411,winning-avg-corewars__terminus2__claude,winning-avg-corewars,random_other,8.73,misread_output,verification,NOT,NOT,

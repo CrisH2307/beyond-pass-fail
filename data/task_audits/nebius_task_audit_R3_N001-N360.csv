@@ -1,0 +1,361 @@
+item_id,hidden_requirement,blocking,note
+N001,yes,unclear,contradicts
+N002,no,no,repo shows it
+N003,yes,yes,contradicts
+N004,no,no,repo shows it
+N005,yes,yes,contradicts
+N006,no,no,repo shows it
+N007,no,no,
+N008,no,no,
+N009,yes,no,repo shows it
+N010,yes,yes,
+N011,no,no,
+N012,no,no,
+N013,yes,yes,unrelated
+N014,yes,yes,
+N015,yes,yes,
+N016,yes,yes,unrelated
+N017,no,no,repo shows it
+N018,yes,unclear,repo shows it
+N019,yes,yes,unrelated
+N020,no,no,repo shows it
+N021,yes,yes,
+N022,no,no,
+N023,yes,yes,
+N024,yes,yes,contradicts
+N025,no,no,repo shows it
+N026,yes,unclear,repo shows it
+N027,no,no,repo shows it
+N028,no,no,
+N029,no,no,
+N030,yes,yes,
+N031,yes,yes,repo shows it
+N032,no,no,
+N033,yes,yes,
+N034,no,no,
+N035,yes,no,contradicts
+N036,yes,yes,
+N037,no,no,repo shows it
+N038,no,no,repo shows it
+N039,yes,yes,contradicts
+N040,no,no,repo shows it
+N041,yes,yes,
+N042,no,no,
+N043,yes,yes,unrelated
+N044,no,no,repo shows it (PUT is already mapped to TokenType.COMMAND in Snowflake dialect)
+N045,yes,yes,
+N046,no,no,
+N047,yes,unclear,contradicts (existing test_27 and test_30 previously asserted empty string for '{None}' and '{no}')
+N048,no,no,repo shows it
+N049,no,no,repo shows it
+N050,yes,yes,
+N051,yes,yes,"contradicts (issue asks to guard union_area == 0 in evaluate.py, test requires ValueError in BBox.__post_init__)"
+N052,yes,yes,unrelated
+N053,no,no,repo shows it
+N054,no,no,
+N055,yes,yes,contradicts
+N056,yes,yes,
+N057,no,no,repo shows it
+N058,yes,yes,contradicts
+N059,no,no,repo shows it
+N060,no,no,repo shows it
+N061,no,no,repo shows it
+N062,yes,yes,
+N063,yes,yes,
+N064,no,no,
+N065,no,no,repo shows it
+N066,yes,yes,unrelated
+N067,yes,yes,unrelated
+N068,no,no,repo shows it
+N069,yes,yes,
+N070,no,no,repo shows it
+N071,no,no,repo shows it
+N072,yes,yes,
+N073,no,no,repo shows it
+N074,no,no,repo shows it
+N075,no,no,repo shows it
+N076,no,no,repo shows it
+N077,yes,yes,contradicts
+N078,no,no,repo shows it
+N079,yes,yes,contradicts
+N080,yes,unclear,repo shows it (RFC 3501 modified UTF-7 printable range 0x20-0x7e is referenced in imap_utf7.py)
+N081,yes,yes,unrelated
+N082,no,no,
+N083,yes,no,
+N084,yes,yes,
+N085,yes,no,
+N086,yes,no,repo shows it
+N087,no,no,
+N088,yes,yes,
+N089,no,no,
+N090,yes,yes,
+N091,yes,yes,
+N092,no,no,repo shows it
+N093,yes,yes,
+N094,yes,unclear,
+N095,no,no,
+N096,no,no,
+N097,no,no,repo shows it
+N098,yes,yes,
+N099,yes,unclear,
+N100,yes,yes,
+N101,yes,yes,
+N102,no,no,
+N103,no,no,repo shows it
+N104,yes,yes,unrelated
+N105,yes,yes,
+N106,yes,yes,
+N107,no,no,
+N108,yes,yes,
+N109,yes,yes,
+N110,yes,yes,
+N111,no,no,
+N112,no,no,repo shows it
+N113,no,no,
+N114,no,no,
+N115,no,no,
+N116,yes,unclear,
+N117,yes,no,
+N118,yes,yes,contradicts
+N119,no,no,
+N120,no,no,
+N121,no,no,
+N122,yes,yes,
+N123,yes,yes,
+N124,no,no,
+N125,yes,yes,contradicts
+N126,yes,yes,contradicts
+N127,no,no,
+N128,no,no,
+N129,yes,yes,unrelated
+N130,no,no,repo shows it
+N131,yes,no,repo shows it
+N132,yes,yes,contradicts
+N133,no,no,
+N134,yes,yes,
+N135,no,no,
+N136,yes,yes,contradicts
+N137,yes,no,
+N138,yes,yes,
+N139,yes,no,
+N140,no,no,
+N141,no,no,
+N142,no,no,
+N143,yes,yes,unrelated
+N144,no,no,
+N145,yes,yes,
+N146,no,no,repo shows it
+N147,yes,yes,
+N148,yes,yes,unrelated
+N149,yes,yes,
+N150,yes,yes,
+N151,no,no,
+N152,yes,yes,
+N153,no,no,
+N154,no,no,repo shows it
+N155,yes,yes,contradicts
+N156,yes,unclear,repo shows it
+N157,yes,yes,contradicts
+N158,yes,yes,
+N159,yes,no,repo shows it
+N160,no,no,
+N161,no,no,
+N162,yes,yes,
+N163,no,no,issue lists option 2 explicitly; test requires that option rather than a new feature
+N164,no,no,
+N165,yes,yes,contradicts
+N166,yes,yes,
+N167,no,no,
+N168,yes,yes,
+N169,no,no,repo shows it
+N170,no,no,
+N171,no,no,
+N172,yes,yes,
+N173,yes,no,
+N174,yes,no,repo shows it
+N175,yes,yes,
+N176,no,no,
+N177,yes,yes,unrelated
+N178,yes,yes,
+N179,no,no,repo shows it
+N180,yes,no,repo shows it
+N181,yes,yes,
+N182,no,no,
+N183,no,no,
+N184,no,no,
+N185,no,no,
+N186,yes,yes,
+N187,no,no,
+N188,no,no,
+N189,yes,yes,
+N190,yes,no,
+N191,yes,no,repo shows it
+N192,no,no,
+N193,yes,no,
+N194,yes,yes,unrelated
+N195,yes,yes,
+N196,yes,yes,
+N197,yes,yes,
+N198,no,no,
+N199,no,no,repo shows it
+N200,yes,yes,contradicts
+N201,yes,yes,
+N202,yes,no,repo shows it
+N203,yes,yes,
+N204,yes,yes,contradicts
+N205,no,no,repo shows it
+N206,yes,yes,
+N207,no,no,
+N208,yes,no,
+N209,no,no,
+N210,no,no,repo shows it
+N211,yes,yes,
+N212,yes,yes,contradicts
+N213,no,no,
+N214,yes,no,
+N215,yes,unclear,
+N216,yes,yes,unrelated
+N217,yes,yes,contradicts
+N218,no,no,
+N219,yes,yes,
+N220,yes,unclear,
+N221,yes,yes,contradicts
+N222,no,no,
+N223,yes,unclear,
+N224,yes,no,
+N225,yes,yes,
+N226,yes,no,repo shows it
+N227,no,no,repo shows it
+N228,no,no,
+N229,no,no,
+N230,no,no,
+N231,yes,yes,contradicts
+N232,yes,yes,
+N233,yes,unclear,
+N234,no,no,
+N235,no,no,
+N236,yes,no,repo shows it
+N237,no,no,
+N238,no,no,
+N239,yes,no,
+N240,no,no,
+N241,no,no,
+N242,no,no,
+N243,no,no,
+N244,no,no,repo shows it
+N245,no,no,
+N246,yes,yes,
+N247,no,no,repo shows it
+N248,no,no,
+N249,yes,yes,
+N250,yes,yes,contradicts
+N251,yes,no,
+N252,no,no,
+N253,yes,yes,contradicts
+N254,no,no,
+N255,yes,yes,contradicts
+N256,no,no,
+N257,yes,yes,
+N258,yes,yes,
+N259,yes,yes,
+N260,no,no,
+N261,no,no,
+N262,no,no,repo shows it
+N263,yes,yes,
+N264,no,no,
+N265,no,no,
+N266,no,no,repo shows it
+N267,yes,yes,
+N268,yes,yes,
+N269,no,no,repo shows it
+N270,yes,yes,unrelated
+N271,yes,yes,
+N272,yes,yes,
+N273,yes,yes,
+N274,no,no,
+N275,no,no,
+N276,yes,no,contradicts
+N277,no,no,
+N278,yes,no,repo shows it
+N279,no,no,
+N280,yes,yes,
+N281,no,no,
+N282,no,no,
+N283,no,no,repo shows it
+N284,yes,yes,
+N285,yes,yes,
+N286,yes,yes,
+N287,no,no,repo shows it
+N288,yes,yes,contradicts
+N289,no,no,
+N290,yes,no,
+N291,no,no,
+N292,yes,yes,
+N293,no,no,
+N294,no,no,repo shows it
+N295,yes,yes,unrelated
+N296,no,no,repo shows it
+N297,no,no,
+N298,no,no,repo shows it
+N299,no,no,
+N300,yes,yes,
+N301,yes,no,repo shows it
+N302,yes,yes,
+N303,no,no,
+N304,yes,no,
+N305,yes,no,repo shows it
+N306,yes,yes,
+N307,yes,no,repo shows it
+N308,yes,yes,
+N309,yes,yes,
+N310,no,no,
+N311,yes,yes,
+N312,no,no,
+N313,no,no,
+N314,yes,yes,
+N315,yes,unclear,
+N316,yes,yes,
+N317,yes,yes,contradicts
+N318,no,no,
+N319,yes,yes,
+N320,yes,yes,
+N321,no,no,
+N322,no,no,
+N323,yes,yes,unrelated
+N324,no,no,
+N325,no,no,
+N326,yes,yes,
+N327,no,no,
+N328,yes,yes,
+N329,yes,no,repo shows it
+N330,no,no,
+N331,no,no,
+N332,yes,yes,
+N333,no,no,
+N334,no,no,
+N335,no,no,
+N336,no,no,
+N337,no,no,repo shows it
+N338,no,no,
+N339,yes,yes,
+N340,no,no,repo shows it
+N341,no,no,
+N342,yes,yes,
+N343,no,no,
+N344,no,no,repo shows it
+N345,yes,yes,
+N346,yes,yes,
+N347,yes,yes,
+N348,yes,yes,unrelated
+N349,no,no,
+N350,no,no,
+N351,yes,yes,
+N352,no,no,
+N353,yes,yes,
+N354,yes,yes,
+N355,yes,no,repo shows it
+N356,no,no,
+N357,yes,yes,
+N358,no,no,
+N359,yes,unclear,
+N360,yes,no,

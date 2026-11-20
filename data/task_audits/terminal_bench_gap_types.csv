@@ -1,0 +1,23 @@
+task,kind_primary,kind_secondary,why
+add-benchmark-lm-eval-harness,A_unstated_name,,test reads metric exact_match; the text never names the metric
+chem-rf,C_hidden_reference,,score uses a held-out file and kd column that only the test downloads
+configure-git-webserver,A_unstated_name,,test logs in as git/password; the text says login is not the agent's concern
+count-call-stack,D_text_points_other_way,B_unstated_format,expected file indents with 3 spaces; the template in the text shows 2
+filter-js-from-html,D_text_points_other_way,B_unstated_format,text says do not alter formatting; test expects BeautifulSoup-normalized HTML
+gpt2-codegolf,C_hidden_reference,,90-second kill limit not in the text
+hf-lora-adapter,A_unstated_name,,test loads the tokenizer from /app/merged_model; text asks for it only in /app/model_cache
+hf-train-lora-adapter,B_unstated_format,,accuracy uses a fixed prompt template and letter parsing the text never gives
+install-windows-3.11,A_unstated_name,,keyboard test uses /tmp/qemu-monitor.sock; path never given
+intrusion-detection,D_text_points_other_way,A_unstated_name,container has an empty /app/reports folder; test reads reports only from /app
+movie-helper,C_hidden_reference,E_extra_criterion,test needs exact recovery of a hidden matrix (spectral error 0.01); text says very similar
+mteb-retrieve,C_hidden_reference,B_unstated_format,expected line depends on a hidden query prompt inside the model wrapper
+neuron-to-jaxley-conversion,C_hidden_reference,A_unstated_name,hidden channel kinetics and channel names (i_HH i_Ca i_KCa) must match exactly
+organization-json-generator,B_unstated_format,,departmentSizes keyed by name; neither text nor schema says name or id
+puzzle-solver,E_extra_criterion,D_text_points_other_way,BFS must stop at the goal depth; the text mentions the 9! total, inviting full BFS
+pytorch-model-cli,B_unstated_format,,expected predictions depend on unstated preprocessing (pixel/255, grayscale)
+query-optimize,C_hidden_reference,,hidden speed bar (1.05x golden query) and 2000-character limit
+rare-mineral-allocation,A_unstated_name,E_extra_criterion,/app/solution.txt never named; test adds an L2 term not in the stated cost
+sam-cell-seg,D_text_points_other_way,B_unstated_format,text says match the input csv; test needs bracketed lists the input does not use
+solve-maze-challenge,D_text_points_other_way,,text tells the agent to self-test, which creates a file whose presence fails the first test
+train-fasttext,B_unstated_format,,labels must be __label__0..4; format not given
+video-processing,C_hidden_reference,,takeoff and landing frames must fall in hidden narrow ranges; no labels given

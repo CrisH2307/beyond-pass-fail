@@ -1,0 +1,41 @@
+item_id,hidden_requirement,blocking,note
+S002,yes,no,
+S004,yes,yes,
+S010,no,no,
+S032,no,no,
+S049,yes,yes,
+S054,yes,yes,
+S055,yes,yes,contradicts
+S058,no,no,
+S063,yes,yes,
+S066,yes,yes,contradicts
+S083,yes,yes,
+S087,no,no,
+S092,no,no,
+S094,yes,no,
+S104,yes,yes,
+S112,no,no,
+S118,no,no,
+S129,yes,unclear,
+S130,no,no,
+S134,yes,yes,contradicts
+S143,yes,yes,
+S144,yes,yes,contradicts
+S145,no,no,repo shows it
+S147,yes,yes,
+S148,no,no,
+S161,no,no,
+S163,no,no,
+S165,no,no,
+S166,yes,yes,
+S177,no,no,repo shows it
+S181,no,no,
+S195,yes,yes,
+S201,yes,yes,
+S215,yes,yes,
+S220,yes,yes,
+S223,no,no,
+S224,yes,yes,
+S231,no,no,
+S234,yes,yes,
+S237,no,no,repo shows it

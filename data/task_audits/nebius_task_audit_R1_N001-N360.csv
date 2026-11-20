@@ -1,0 +1,361 @@
+item_id,hidden_requirement,blocking,note
+N001,no,no,"contradicts (issue suggests optional behavior, test validates tuples unconditionally)"
+N002,no,no,repo shows it
+N003,yes,yes,contradicts
+N004,no,no,repo shows it
+N005,yes,yes,contradicts
+N006,no,no,repo shows it
+N007,no,no,
+N008,yes,yes,unrelated
+N009,no,no,repo shows it
+N010,yes,unclear,
+N011,no,no,
+N012,no,no,
+N013,yes,yes,unrelated
+N014,yes,yes,
+N015,yes,yes,
+N016,yes,yes,unrelated
+N017,no,no,repo shows it
+N018,no,no,repo shows it
+N019,yes,yes,unrelated
+N020,yes,no,unrelated
+N021,yes,yes,
+N022,no,no,
+N023,yes,unclear,
+N024,yes,yes,contradicts
+N025,yes,yes,
+N026,no,no,repo shows it
+N027,no,no,repo shows it
+N028,no,no,
+N029,no,no,
+N030,yes,yes,
+N031,yes,unclear,repo shows it
+N032,no,no,
+N033,yes,yes,
+N034,no,no,
+N035,no,no,"contradicts (issue mentions new error message ""invalid_white_space"", but test uses existing ""DISALLOWED/controls"")"
+N036,yes,yes,
+N037,no,no,repo shows it
+N038,no,no,repo shows it
+N039,yes,no,"contradicts (issue requests warn=logger.warn parameter, test does not check it)"
+N040,no,no,repo shows it
+N041,yes,yes,
+N042,no,no,repo shows it
+N043,yes,yes,unrelated
+N044,no,no,repo shows it
+N045,yes,yes,
+N046,no,no,repo shows it
+N047,no,no,repo shows it
+N048,no,no,repo shows it
+N049,no,no,repo shows it
+N050,yes,yes,
+N051,yes,yes,contradicts
+N052,yes,yes,unrelated
+N053,no,no,repo shows it
+N054,no,no,repo shows it
+N055,yes,yes,contradicts
+N056,yes,yes,
+N057,yes,yes,
+N058,yes,yes,contradicts
+N059,no,no,repo shows it
+N060,no,no,repo shows it
+N061,no,no,repo shows it
+N062,yes,yes,
+N063,yes,yes,
+N064,no,no,repo shows it
+N065,no,no,repo shows it
+N066,yes,yes,unrelated
+N067,yes,yes,unrelated
+N068,yes,yes,
+N069,yes,unclear,repo shows it
+N070,no,no,repo shows it
+N071,no,no,repo shows it
+N072,yes,yes,
+N073,no,no,repo shows it
+N074,no,no,repo shows it
+N075,no,no,unrelated
+N076,no,no,repo shows it
+N077,yes,no,"contradicts (issue snippet passes parent_parameters=[""data"",""parameters""], but test expects [""x"", ""parameters""])"
+N078,no,no,repo shows it
+N079,yes,yes,contradicts
+N080,yes,unclear,
+N081,yes,yes,unrelated
+N082,no,no,
+N083,yes,yes,
+N084,yes,yes,
+N085,yes,yes,unrelated
+N086,yes,yes,
+N087,no,no,
+N088,yes,yes,
+N089,no,no,
+N090,yes,yes,
+N091,yes,yes,
+N092,no,no,repo shows it
+N093,yes,yes,
+N094,yes,yes,
+N095,no,no,
+N096,no,no,
+N097,yes,yes,
+N098,yes,yes,
+N099,yes,yes,
+N100,yes,yes,
+N101,yes,yes,
+N102,yes,yes,contradicts
+N103,no,no,
+N104,yes,yes,unrelated
+N105,yes,yes,
+N106,yes,yes,
+N107,no,no,
+N108,yes,yes,
+N109,yes,yes,
+N110,yes,yes,
+N111,no,no,
+N112,yes,yes,
+N113,no,no,
+N114,no,no,
+N115,no,no,
+N116,yes,unclear,
+N117,yes,yes,
+N118,yes,yes,contradicts
+N119,no,no,
+N120,no,no,
+N121,no,no,
+N122,yes,yes,
+N123,yes,yes,
+N124,no,no,
+N125,yes,yes,contradicts
+N126,yes,yes,contradicts
+N127,no,no,
+N128,no,no,
+N129,yes,yes,unrelated
+N130,no,no,
+N131,yes,yes,
+N132,yes,yes,contradicts
+N133,no,no,
+N134,yes,yes,
+N135,no,no,
+N136,yes,yes,contradicts
+N137,yes,no,
+N138,yes,yes,contradicts
+N139,yes,yes,contradicts
+N140,no,no,
+N141,no,no,
+N142,no,no,
+N143,yes,yes,unrelated
+N144,no,no,
+N145,yes,yes,
+N146,yes,no,
+N147,yes,yes,
+N148,yes,yes,unrelated
+N149,yes,yes,
+N150,yes,yes,
+N151,no,no,
+N152,yes,yes,
+N153,no,no,
+N154,yes,yes,
+N155,yes,yes,contradicts
+N156,yes,yes,
+N157,yes,yes,contradicts
+N158,yes,yes,
+N159,yes,yes,
+N160,no,no,
+N161,no,no,
+N162,yes,yes,
+N163,yes,yes,"contradicts (option 1 of the issue, adding a new max feature, fails the test)"
+N164,no,no,
+N165,yes,yes,contradicts (the issue's own patch stores wdir in the cache dict and changes the cache hash)
+N166,yes,yes,
+N167,no,no,
+N168,yes,yes,
+N169,no,no,repo shows it
+N170,yes,yes,
+N171,no,no,
+N172,yes,yes,
+N173,yes,yes,
+N174,no,no,repo shows it
+N175,yes,yes,
+N176,no,no,
+N177,yes,yes,
+N178,yes,yes,
+N179,no,no,repo shows it
+N180,yes,yes,
+N181,yes,yes,
+N182,no,no,
+N183,no,no,repo shows it
+N184,no,no,repo shows it
+N185,no,no,
+N186,yes,yes,"contradicts (the issue proposes two `foreach` keys with item_0/item_1, the test needs a `matrix` definition)"
+N187,no,no,
+N188,no,no,
+N189,yes,yes,unrelated
+N190,no,no,
+N191,yes,unclear,
+N192,no,no,
+N193,yes,yes,
+N194,yes,yes,
+N195,yes,yes,
+N196,yes,yes,unrelated
+N197,yes,yes,
+N198,no,no,
+N199,no,no,repo shows it
+N200,yes,yes,contradicts (deleting should_warn as the issue suggests makes the default-options run report B950)
+N201,yes,yes,
+N202,yes,yes,
+N203,yes,yes,
+N204,yes,yes,
+N205,no,no,
+N206,yes,yes,contradicts
+N207,no,no,
+N208,yes,yes,
+N209,no,no,
+N210,yes,yes,
+N211,yes,yes,
+N212,yes,yes,contradicts
+N213,no,no,
+N214,yes,yes,
+N215,yes,yes,
+N216,yes,yes,unrelated
+N217,yes,yes,contradicts
+N218,no,no,
+N219,yes,yes,
+N220,yes,yes,
+N221,yes,yes,contradicts
+N222,no,no,
+N223,yes,yes,
+N224,yes,yes,
+N225,yes,yes,unrelated
+N226,yes,no,repo shows it
+N227,yes,no,repo shows it
+N228,no,no,
+N229,no,no,
+N230,no,no,
+N231,yes,yes,contradicts
+N232,yes,yes,
+N233,yes,yes,
+N234,no,no,
+N235,no,no,
+N236,yes,yes,
+N237,no,no,
+N238,no,no,
+N239,yes,yes,
+N240,no,no,
+N241,no,no,repo shows it
+N242,no,no,
+N243,yes,yes,
+N244,no,no,
+N245,no,no,
+N246,yes,yes,
+N247,no,no,repo shows it
+N248,no,no,
+N249,yes,yes,
+N250,yes,yes,contradicts
+N251,yes,yes,
+N252,no,no,
+N253,yes,yes,
+N254,no,no,
+N255,yes,yes,contradicts
+N256,no,no,
+N257,yes,yes,
+N258,yes,yes,
+N259,yes,yes,
+N260,no,no,
+N261,no,no,
+N262,no,no,repo shows it
+N263,yes,yes,
+N264,no,no,
+N265,no,no,repo shows it
+N266,no,no,
+N267,yes,yes,
+N268,yes,yes,
+N269,no,no,repo shows it
+N270,yes,yes,
+N271,yes,yes,
+N272,yes,yes,
+N273,yes,yes,unrelated
+N274,no,no,
+N275,no,no,
+N276,no,no,"contradicts (issue suggests only changing the docs example to end with $, which leaves the code and the failing test unchanged)"
+N277,no,no,
+N278,yes,yes,
+N279,no,no,
+N280,yes,yes,
+N281,no,no,
+N282,no,no,
+N283,no,no,
+N284,yes,yes,"contradicts (issue allows fixing write mode, test requires a ValueError)"
+N285,yes,yes,
+N286,yes,yes,
+N287,no,no,
+N288,yes,yes,"contradicts (issue proposes a separate min_angle argument, tests pass a tuple to max_angle)"
+N289,no,no,
+N290,yes,yes,
+N291,yes,yes,
+N292,yes,yes,unrelated
+N293,no,no,
+N294,no,no,
+N295,yes,yes,
+N296,no,no,
+N297,no,no,
+N298,no,no,
+N299,no,no,
+N300,yes,yes,
+N301,yes,no,repo shows it
+N302,yes,yes,
+N303,no,no,
+N304,yes,yes,
+N305,yes,yes,
+N306,yes,yes,
+N307,yes,yes,
+N308,yes,yes,
+N309,yes,yes,
+N310,no,no,
+N311,yes,yes,
+N312,yes,no,
+N313,no,no,
+N314,yes,yes,
+N315,yes,yes,
+N316,yes,yes,contradicts
+N317,yes,yes,contradicts
+N318,no,no,
+N319,yes,yes,
+N320,yes,yes,
+N321,no,no,
+N322,no,no,
+N323,yes,yes,unrelated
+N324,yes,no,
+N325,yes,no,
+N326,yes,yes,contradicts
+N327,yes,yes,
+N328,yes,yes,
+N329,yes,no,
+N330,no,no,
+N331,no,no,
+N332,yes,yes,
+N333,no,no,
+N334,no,no,
+N335,no,no,
+N336,no,no,
+N337,no,no,repo shows it
+N338,no,no,
+N339,yes,yes,
+N340,yes,no,repo shows it
+N341,no,no,
+N342,yes,yes,unrelated
+N343,no,no,
+N344,no,no,
+N345,yes,yes,
+N346,yes,yes,unrelated
+N347,yes,yes,
+N348,yes,yes,unrelated
+N349,no,no,
+N350,yes,yes,
+N351,yes,yes,
+N352,no,no,
+N353,yes,yes,
+N354,yes,yes,
+N355,yes,yes,
+N356,no,no,
+N357,yes,yes,
+N358,no,no,
+N359,yes,yes,
+N360,yes,no,
