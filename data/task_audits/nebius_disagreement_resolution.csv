@@ -1,0 +1,71 @@
+item_id,R1_hidden,R1_blocking,R3_hidden,R3_blocking,consensus_hidden,consensus_blocking,consensus_matches_R1,consensus_matches_R3,consensus_note
+N001,no,no,yes,unclear,yes,unclear,0,1,contradicts
+N008,yes,yes,no,no,no,no,0,1,
+N009,no,no,yes,no,no,no,1,0,repo shows it
+N010,yes,unclear,yes,yes,yes,yes,0,1,
+N018,no,no,yes,unclear,no,no,1,0,repo shows it
+N020,yes,no,no,no,no,no,0,1,repo shows it
+N023,yes,unclear,yes,yes,yes,yes,0,1,
+N025,yes,yes,no,no,yes,yes,1,0,
+N026,no,no,yes,unclear,no,no,1,0,repo shows it
+N031,yes,unclear,yes,yes,yes,yes,0,1,repo shows it
+N035,no,no,yes,no,yes,no,0,1,contradicts
+N039,yes,no,yes,yes,yes,unclear,0,0,contradicts
+N047,no,no,yes,unclear,yes,unclear,0,1,contradicts
+N057,yes,yes,no,no,yes,yes,1,0,
+N068,yes,yes,no,no,yes,unclear,0,0,
+N069,yes,unclear,yes,yes,yes,yes,0,1,
+N077,yes,no,yes,yes,yes,yes,0,1,contradicts
+N083,yes,yes,yes,no,yes,unclear,0,0,
+N085,yes,yes,yes,no,yes,yes,1,0,unrelated
+N086,yes,yes,yes,no,yes,no,0,1,repo shows it
+N094,yes,yes,yes,unclear,yes,unclear,0,1,
+N097,yes,yes,no,no,no,no,0,1,repo shows it
+N099,yes,yes,yes,unclear,yes,unclear,0,1,
+N102,yes,yes,no,no,no,no,0,1,
+N112,yes,yes,no,no,no,no,0,1,repo shows it
+N117,yes,yes,yes,no,yes,yes,1,0,
+N131,yes,yes,yes,no,yes,no,0,1,repo shows it
+N139,yes,yes,yes,no,yes,yes,1,0,contradicts
+N146,yes,no,no,no,no,no,0,1,repo shows it
+N154,yes,yes,no,no,no,no,0,1,repo shows it
+N156,yes,yes,yes,unclear,yes,yes,1,0,repo shows it
+N159,yes,yes,yes,no,yes,no,0,1,repo shows it
+N163,yes,yes,no,no,yes,unclear,0,0,contradicts
+N170,yes,yes,no,no,no,no,0,1,
+N173,yes,yes,yes,no,yes,unclear,0,0,
+N174,no,no,yes,no,no,no,1,0,repo shows it
+N180,yes,yes,yes,no,yes,no,0,1,repo shows it
+N190,no,no,yes,no,no,no,1,0,
+N191,yes,unclear,yes,no,yes,no,0,1,repo shows it
+N193,yes,yes,yes,no,yes,yes,1,0,
+N202,yes,yes,yes,no,yes,no,0,1,repo shows it
+N208,yes,yes,yes,no,yes,unclear,0,0,
+N210,yes,yes,no,no,no,no,0,1,repo shows it
+N214,yes,yes,yes,no,yes,no,0,1,
+N215,yes,yes,yes,unclear,yes,yes,1,0,
+N220,yes,yes,yes,unclear,yes,unclear,0,1,
+N223,yes,yes,yes,unclear,yes,yes,1,0,
+N224,yes,yes,yes,no,yes,no,0,1,
+N227,yes,no,no,no,no,no,0,1,repo shows it
+N233,yes,yes,yes,unclear,yes,yes,1,0,
+N236,yes,yes,yes,no,yes,no,0,1,repo shows it
+N239,yes,yes,yes,no,yes,no,0,1,
+N243,yes,yes,no,no,no,no,0,1,
+N251,yes,yes,yes,no,yes,no,0,1,
+N276,no,no,yes,no,yes,no,0,1,contradicts
+N278,yes,yes,yes,no,yes,no,0,1,repo shows it
+N290,yes,yes,yes,no,yes,unclear,0,0,
+N291,yes,yes,no,no,no,no,0,1,
+N304,yes,yes,yes,no,yes,no,0,1,
+N305,yes,yes,yes,no,yes,no,0,1,repo shows it
+N307,yes,yes,yes,no,yes,no,0,1,repo shows it
+N312,yes,no,no,no,no,no,0,1,
+N315,yes,yes,yes,unclear,yes,yes,1,0,
+N324,yes,no,no,no,no,no,0,1,
+N325,yes,no,no,no,no,no,0,1,
+N327,yes,yes,no,no,no,no,0,1,
+N340,yes,no,no,no,no,no,0,1,repo shows it
+N350,yes,yes,no,no,no,no,0,1,
+N355,yes,yes,yes,no,yes,no,0,1,repo shows it
+N359,yes,yes,yes,unclear,yes,yes,1,0,

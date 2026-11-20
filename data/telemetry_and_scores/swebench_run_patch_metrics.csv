@@ -1,0 +1,321 @@
+item_id,instance_id,exit_status,ref_file_edit,other_file_edit,scratch_file_added,agent_changed_lines,ref_changed_lines
+S001,django__django-17058,submitted,1,0,0,39,105
+S002,django__django-12869,submitted,1,0,0,22,10
+S003,sympy__sympy-21171,submitted,1,0,0,4,4
+S004,scikit-learn__scikit-learn-10397,submitted,1,0,1,15,13
+S005,django__django-12532,submitted,1,0,0,8,21
+S006,pydata__xarray-5365,submitted (exit_cost),0,0,1,28,221
+S007,scikit-learn__scikit-learn-15084,submitted,1,0,1,85,252
+S008,sympy__sympy-18189,submitted (exit_cost),1,0,1,81,2
+S009,sympy__sympy-12454,submitted,1,0,0,2,4
+S010,sphinx-doc__sphinx-7985,submitted (exit_cost),0,1,1,98,17
+S011,django__django-14915,submitted,0,0,0,0,3
+S012,scikit-learn__scikit-learn-15086,submitted (exit_cost),0,0,1,14,3
+S013,pytest-dev__pytest-7158,submitted (exit_cost),0,1,1,8,4
+S014,mwaskom__seaborn-2853,submitted (exit_cost),0,1,1,20,2
+S015,django__django-11797,submitted,0,1,1,192,6
+S016,scikit-learn__scikit-learn-10913,submitted (exit_cost),1,0,1,41,14
+S017,django__django-15492,submitted,1,0,0,16,24
+S018,astropy__astropy-13390,submitted (exit_cost),0,1,1,88,43
+S019,django__django-16092,submitted,1,0,0,28,293
+S020,astropy__astropy-13404,submitted,0,1,1,29,15
+S021,matplotlib__matplotlib-20679,submitted,1,0,0,6,130
+S022,django__django-14997,submitted (exit_cost),0,0,1,102,6
+S023,sphinx-doc__sphinx-7975,submitted (exit_cost),1,1,0,111,14
+S024,sphinx-doc__sphinx-11312,submitted,1,0,0,37,76
+S025,sympy__sympy-13471,submitted,1,0,1,37,5
+S026,sympy__sympy-14396,submitted,1,0,0,2,8
+S027,django__django-14631,submitted (exit_cost),1,0,0,35,65
+S028,pylint-dev__pylint-6517,submitted (exit_cost),0,0,1,3,2
+S029,scikit-learn__scikit-learn-9274,submitted,1,0,0,1,55
+S030,astropy__astropy-13033,submitted,1,0,0,15,14
+S031,django__django-12407,submitted (exit_cost),1,1,1,79,10
+S032,django__django-13925,submitted,0,0,1,16,5
+S033,pytest-dev__pytest-9064,submitted,1,0,0,4,7
+S034,django__django-15316,submitted (exit_format),1,0,1,467,22
+S035,sympy__sympy-19346,submitted (exit_cost),1,0,1,21,10
+S036,scikit-learn__scikit-learn-25694,submitted,1,0,0,2,4
+S037,pydata__xarray-3976,submitted,0,1,1,18,13
+S038,django__django-16899,submitted (exit_cost),1,0,0,35,5
+S039,django__django-14266,submitted,1,0,0,11,3
+S040,django__django-14832,submitted,1,0,0,22,40
+S041,django__django-14855,submitted,1,0,0,7,6
+S042,sympy__sympy-14248,submitted (exit_cost),1,0,1,9,65
+S043,pydata__xarray-4879,submitted (exit_cost),0,1,1,23,78
+S044,sympy__sympy-19495,submitted (exit_cost),0,0,1,11,19
+S045,pytest-dev__pytest-7985,submitted (exit_cost),1,0,1,117,15
+S046,pydata__xarray-7393,submitted (exit_cost),0,0,1,11,6
+S047,astropy__astropy-7671,submitted (exit_cost),0,0,1,7,9
+S048,django__django-11638,submitted,0,0,1,31,9
+S049,django__django-11891,submitted,1,0,1,97,2
+S050,sympy__sympy-23021,submitted (exit_cost),1,0,1,10,33
+S051,django__django-15925,submitted (exit_cost),0,1,1,169,5
+S052,pylint-dev__pylint-6820,submitted,1,0,0,20,43
+S053,django__django-13325,submitted (exit_cost),1,1,0,41,10
+S054,django__django-15766,submitted,1,0,0,19,42
+S055,django__django-13814,submitted,1,0,0,7,2
+S056,sympy__sympy-12906,submitted,1,0,0,3,50
+S057,pydata__xarray-4759,submitted (exit_cost),1,0,1,29,53
+S058,matplotlib__matplotlib-24149,submitted,1,0,0,3,8
+S059,django__django-13023,submitted (exit_cost),1,0,1,36,2
+S060,pydata__xarray-6386,submitted,1,0,0,2,2
+S061,sympy__sympy-17223,submitted,1,0,0,2,204
+S062,psf__requests-1733,submitted (exit_cost),0,0,1,11,31
+S063,scikit-learn__scikit-learn-13549,submitted,1,0,0,123,192
+S064,matplotlib__matplotlib-24334,submitted,1,0,1,24,3
+S065,pytest-dev__pytest-7236,submitted,0,0,1,42,11
+S066,sympy__sympy-21769,submitted,1,0,0,21,21
+S067,scikit-learn__scikit-learn-12860,submitted,1,1,0,30,61
+S068,scikit-learn__scikit-learn-13436,submitted,1,0,1,49,43
+S069,django__django-11149,submitted (exit_cost),0,0,1,108,56
+S070,django__django-10853,submitted,0,1,1,32,6
+S071,scikit-learn__scikit-learn-10508,submitted,1,0,0,4,7
+S072,sphinx-doc__sphinx-7305,submitted (exit_cost),0,1,1,208,34
+S073,scikit-learn__scikit-learn-10899,submitted (exit_cost),1,0,1,38,29
+S074,django__django-12708,submitted (exit_cost),0,1,0,230,7
+S075,scikit-learn__scikit-learn-14894,submitted (exit_cost),1,0,1,33,13
+S076,django__django-13551,submitted,1,0,0,325,10
+S077,django__django-10939,exit_cost,0,0,0,0,30
+S078,django__django-12591,submitted (exit_cost),1,1,1,602,11
+S079,sympy__sympy-14711,submitted (exit_cost),1,1,1,162,2
+S080,matplotlib__matplotlib-22929,submitted,1,0,0,25,22
+S081,django__django-11669,submitted,1,0,0,10,30
+S082,django__django-11141,submitted (exit_cost),1,0,1,53,10
+S083,astropy__astropy-14365,submitted,1,1,0,4,4
+S084,sphinx-doc__sphinx-8265,submitted,0,1,1,26,18
+S085,django__django-15087,submitted (exit_cost),1,0,1,83,95
+S086,scikit-learn__scikit-learn-12961,submitted,1,0,1,67,11
+S087,django__django-14017,submitted,0,1,0,4,2
+S088,sympy__sympy-12194,submitted (exit_cost),1,0,0,28,32
+S089,django__django-10737,submitted,1,0,1,86,20
+S090,django__django-12671,submitted,1,0,0,2,6
+S091,matplotlib__matplotlib-26300,submitted,1,0,0,5,8
+S092,scikit-learn__scikit-learn-11310,submitted (exit_cost),1,0,0,43,14
+S093,django__django-15401,submitted,0,1,0,3,12
+S094,django__django-15022,submitted (exit_cost),0,1,1,231,4
+S095,django__django-13030,submitted,0,1,1,35,4
+S096,sympy__sympy-17010,submitted,1,0,1,17,22
+S097,sympy__sympy-23808,submitted,1,0,0,3,27
+S098,pydata__xarray-5131,submitted,0,0,1,2,2
+S099,sympy__sympy-18087,submitted (exit_cost),0,1,1,57,14
+S100,django__django-11216,submitted,1,0,0,19,7
+S101,sympy__sympy-19254,submitted,1,0,0,20,61
+S102,django__django-16903,submitted (exit_cost),0,0,1,56,31
+S103,sympy__sympy-18908,submitted,1,0,0,4,20
+S104,scikit-learn__scikit-learn-25363,submitted,1,0,0,3,265
+S105,sphinx-doc__sphinx-9464,submitted,1,1,1,32,5
+S106,django__django-14399,submitted,0,1,0,27,10
+S107,sphinx-doc__sphinx-7910,submitted,0,1,0,20,3
+S108,sphinx-doc__sphinx-8801,exit_cost,0,0,0,0,27
+S109,pytest-dev__pytest-5205,submitted (exit_cost),0,0,1,50,44
+S110,sympy__sympy-17512,submitted (exit_cost),0,0,1,22,157
+S111,django__django-13615,submitted,1,0,0,18,8
+S112,django__django-14271,submitted (exit_cost),0,1,1,111,4
+S113,django__django-12928,submitted,1,1,0,11,86
+S114,scikit-learn__scikit-learn-13779,submitted,1,0,0,3,2
+S115,matplotlib__matplotlib-18869,submitted,1,0,0,22,67
+S116,matplotlib__matplotlib-24189,submitted (exit_cost),1,0,1,20,13
+S117,django__django-15498,submitted,0,1,0,5,4
+S118,django__django-15277,submitted (exit_cost),0,1,1,8,3
+S119,matplotlib__matplotlib-22926,submitted,1,0,1,49,67
+S120,astropy__astropy-13977,submitted,1,0,1,57,95
+S121,sympy__sympy-18198,submitted (exit_cost),1,1,0,66,373
+S122,sphinx-doc__sphinx-11192,submitted (exit_cost),0,1,0,11,7
+S123,django__django-16302,submitted (exit_cost),0,0,1,29,37
+S124,sympy__sympy-18211,submitted (exit_cost),0,0,1,14,9
+S125,django__django-10301,submitted (exit_cost),1,1,0,232,93
+S126,django__django-14802,submitted,1,0,0,29,132
+S127,django__django-12225,submitted,1,0,0,4,3
+S128,pytest-dev__pytest-5692,submitted,1,0,1,37,4
+S129,matplotlib__matplotlib-25775,submitted,1,0,0,37,39
+S130,sympy__sympy-13301,submitted (exit_cost),1,0,1,13,36
+S131,django__django-14411,submitted (exit_cost),1,0,1,76,3
+S132,sympy__sympy-20565,submitted,1,0,1,8,2
+S133,matplotlib__matplotlib-24538,submitted,1,0,0,24,89
+S134,scikit-learn__scikit-learn-13828,submitted,1,0,0,10,6
+S135,pytest-dev__pytest-8428,submitted (exit_cost),1,0,1,13,16
+S136,astropy__astropy-8519,submitted (exit_cost),0,1,1,20,18
+S137,django__django-15799,submitted,1,0,0,10,8
+S138,sympy__sympy-16862,submitted,1,0,0,2,57
+S139,sympy__sympy-18199,submitted,1,0,0,13,50
+S140,pydata__xarray-6461,submitted (exit_cost),0,0,1,2,3
+S141,sympy__sympy-15320,submitted,1,0,0,39,25
+S142,sphinx-doc__sphinx-8506,submitted (exit_cost),0,1,0,36,7
+S143,sympy__sympy-17630,submitted (exit_cost),0,1,1,23,2
+S144,scikit-learn__scikit-learn-24145,submitted,1,0,0,104,175
+S145,django__django-12299,submitted (exit_cost),0,0,1,34,2
+S146,django__django-11417,submitted (exit_cost),1,0,1,31,78
+S147,django__django-14313,submitted (exit_cost),0,1,1,130,69
+S148,django__django-16067,submitted (exit_cost),1,0,1,21,6
+S149,sphinx-doc__sphinx-11550,submitted,0,1,1,24,84
+S150,astropy__astropy-7218,submitted,1,0,0,11,19
+S151,django__django-15380,submitted (exit_cost),1,1,1,109,2
+S152,scikit-learn__scikit-learn-11160,submitted,1,0,0,48,39
+S153,sympy__sympy-13757,submitted,1,0,0,6,1
+S154,sphinx-doc__sphinx-9155,submitted,1,0,0,13,106
+S155,django__django-16560,submitted (exit_cost),1,0,1,50,85
+S156,django__django-13822,submitted,1,0,1,40,6
+S157,sympy__sympy-13361,submitted,1,0,0,2,2
+S158,django__django-14672,submitted (exit_cost),0,0,1,38,2
+S159,django__django-14016,submitted (exit_cost),1,0,1,14,7
+S160,django__django-15037,submitted,1,0,0,19,8
+S161,django__django-12364,submitted (exit_cost),1,0,0,60,41
+S162,django__django-15433,submitted (exit_cost),0,1,0,24,10
+S163,django__django-13773,submitted,1,0,0,7,7
+S164,sympy__sympy-23296,submitted (exit_cost),1,0,1,18,2
+S165,matplotlib__matplotlib-26101,submitted,1,0,0,2,14
+S166,django__django-15669,submitted (exit_cost),1,0,0,11,124
+S167,pylint-dev__pylint-6528,submitted (exit_cost),0,1,1,17,35
+S168,astropy__astropy-12842,submitted,0,1,1,70,97
+S169,astropy__astropy-13469,submitted,1,0,0,2,7
+S170,sympy__sympy-16437,submitted (exit_cost),0,0,1,7,13
+S171,sympy__sympy-16637,submitted,1,0,1,70,44
+S172,matplotlib__matplotlib-25498,submitted,0,0,0,0,8
+S173,scikit-learn__scikit-learn-13496,submitted,1,1,0,32,10
+S174,sphinx-doc__sphinx-9233,submitted,1,1,0,43,20
+S175,sympy__sympy-17239,submitted (exit_cost),1,0,1,29,53
+S176,django__django-11177,submitted (exit_cost),0,1,0,193,78
+S177,django__django-15297,submitted,1,0,0,31,2
+S178,sphinx-doc__sphinx-7961,submitted,1,1,0,24,4
+S179,django__django-15499,submitted,1,0,0,13,13
+S180,astropy__astropy-12544,submitted (exit_cost),0,1,1,53,20
+S181,sympy__sympy-11618,submitted,1,0,0,3,14
+S182,scikit-learn__scikit-learn-10881,submitted,1,0,1,28,4
+S183,sympy__sympy-22969,submitted,1,0,0,20,29
+S184,sympy__sympy-20264,submitted (exit_cost),0,0,1,11,7
+S185,sympy__sympy-22773,submitted (exit_cost),1,1,1,30,66
+S186,sphinx-doc__sphinx-8035,submitted,1,1,0,18,46
+S187,pylint-dev__pylint-6059,submitted,1,0,0,42,10
+S188,pylint-dev__pylint-8312,submitted (exit_cost),1,0,1,55,14
+S189,astropy__astropy-14379,submitted,1,0,0,10,13
+S190,sympy__sympy-22098,submitted (exit_cost),0,0,1,17,19
+S191,sympy__sympy-14031,submitted (exit_cost),0,1,1,127,16
+S192,django__django-12155,submitted,1,0,0,8,23
+S193,matplotlib__matplotlib-26466,submitted,1,0,0,7,20
+S194,matplotlib__matplotlib-22767,submitted,1,0,0,2,7
+S195,django__django-13794,submitted,0,1,0,28,6
+S196,sympy__sympy-13264,submitted,1,0,0,12,27
+S197,django__django-13115,submitted,1,1,0,12,8
+S198,django__django-11543,submitted (exit_cost),1,0,1,13,3
+S199,sympy__sympy-15446,submitted (exit_cost),1,0,1,11,72
+S200,scikit-learn__scikit-learn-14053,submitted,1,0,0,18,3
+S201,sphinx-doc__sphinx-7590,submitted (exit_cost),1,1,0,160,107
+S202,psf__requests-1713,submitted,1,0,0,13,32
+S203,sympy__sympy-17288,submitted (exit_cost),1,0,1,8,18
+S204,sympy__sympy-16988,submitted,1,1,0,112,2
+S205,django__django-12503,submitted,1,0,1,31,2
+S206,django__django-12161,submitted (exit_cost),0,0,1,41,98
+S207,scikit-learn__scikit-learn-13447,submitted,1,0,0,31,12
+S208,scikit-learn__scikit-learn-25973,submitted,1,1,0,9,12
+S209,django__django-14667,submitted (exit_cost),0,0,1,96,7
+S210,scikit-learn__scikit-learn-26323,submitted (exit_cost),1,0,1,40,4
+S211,django__django-16256,submitted (exit_cost),1,0,0,14,55
+S212,django__django-13220,submitted,1,0,0,62,20
+S213,sympy__sympy-15586,submitted (exit_cost),1,0,1,365,22
+S214,sphinx-doc__sphinx-8621,submitted,0,1,0,22,2
+S215,scikit-learn__scikit-learn-25747,submitted,0,0,0,0,4
+S216,pytest-dev__pytest-7466,submitted,0,1,0,50,9
+S217,django__django-11169,submitted,1,0,0,48,12
+S218,sphinx-doc__sphinx-7748,submitted,1,0,0,116,90
+S219,django__django-13616,submitted,1,0,0,5,5
+S220,matplotlib__matplotlib-24870,submitted,0,1,0,8,33
+S221,sphinx-doc__sphinx-9230,submitted,1,0,0,24,2
+S222,django__django-12325,submitted,1,0,0,24,8
+S223,django__django-13590,submitted (exit_format),0,0,1,19,6
+S224,sphinx-doc__sphinx-11510,submitted (exit_cost),0,1,1,123,36
+S225,django__django-12276,exit_cost,0,0,0,0,6
+S226,django__django-13620,submitted,0,1,1,48,25
+S227,sphinx-doc__sphinx-8551,submitted (exit_cost),0,1,1,91,3
+S228,django__django-14170,submitted (exit_cost),0,0,1,44,38
+S229,psf__requests-1776,submitted,1,0,0,7,26
+S230,matplotlib__matplotlib-25712,submitted (exit_cost),1,0,1,23,7
+S231,django__django-15930,submitted,1,0,1,47,5
+S232,django__django-15732,submitted,1,0,0,11,32
+S233,django__django-14779,submitted (exit_cost),0,0,1,25,2
+S234,django__django-15139,submitted,1,1,0,38,35
+S235,astropy__astropy-12825,submitted (exit_cost),1,0,1,76,52
+S236,django__django-14495,submitted (exit_cost),0,1,0,259,9
+S237,sphinx-doc__sphinx-7615,submitted,0,1,0,25,17
+S238,pytest-dev__pytest-10758,submitted,1,1,1,185,54
+S239,django__django-15752,submitted,1,0,0,4,7
+S240,astropy__astropy-14578,submitted (exit_cost),0,0,1,13,14
+S241,matplotlib__matplotlib-23057,submitted,0,0,1,16,10
+S242,astropy__astropy-8339,submitted (exit_cost),1,0,1,27,12
+S243,scikit-learn__scikit-learn-13933,submitted,1,0,0,58,60
+S244,sympy__sympy-21596,submitted (exit_cost),0,0,1,12,37
+S245,sympy__sympy-15635,submitted,1,1,0,81,12
+S246,django__django-13924,submitted (exit_cost),0,1,0,70,5
+S247,pydata__xarray-3151,submitted,1,0,1,40,15
+S248,django__django-14382,submitted,1,0,0,54,4
+S249,scikit-learn__scikit-learn-12421,submitted,1,0,0,4,54
+S250,sympy__sympy-17845,submitted (exit_cost),1,0,1,27,185
+S251,django__django-14730,submitted,1,0,0,7,10
+S252,django__django-12484,submitted,1,0,0,2,5
+S253,django__django-11265,submitted,1,0,0,12,11
+S254,django__django-15902,submitted (exit_cost),0,1,1,52,2
+S255,sphinx-doc__sphinx-7440,submitted,0,1,0,18,4
+S256,django__django-14534,submitted,1,0,0,3,2
+S257,django__django-13691,submitted (exit_cost),0,0,1,47,4
+S258,django__django-12009,submitted,0,1,0,2,16
+S259,sphinx-doc__sphinx-9207,submitted,0,1,1,69,10
+S260,scikit-learn__scikit-learn-25969,submitted (exit_cost),0,1,0,3,386
+S261,django__django-13821,submitted,1,1,0,10,6
+S262,sphinx-doc__sphinx-7350,submitted,1,1,0,109,8
+S263,pallets__flask-5014,submitted,1,0,0,3,3
+S264,psf__requests-1724,submitted,0,0,0,0,5
+S265,django__django-13460,submitted (exit_cost),0,0,0,61,7
+S266,pydata__xarray-4966,submitted (exit_cost),1,0,1,15,8
+S267,scikit-learn__scikit-learn-13135,submitted,1,0,1,12,2
+S268,pydata__xarray-5126,submitted (exit_cost),1,0,1,29,90
+S269,django__django-14351,submitted,0,1,1,35,9
+S270,sphinx-doc__sphinx-9231,submitted,1,1,0,20,5
+S271,django__django-11206,submitted (exit_cost),1,0,1,21,8
+S272,sympy__sympy-16088,submitted,1,0,0,15,206
+S273,pytest-dev__pytest-7571,submitted (exit_cost),1,0,1,18,4
+S274,astropy__astropy-13477,submitted,1,0,0,7,14
+S275,pydata__xarray-4510,submitted (exit_cost),1,0,1,73,198
+S276,sphinx-doc__sphinx-9828,submitted,1,0,0,27,11
+S277,matplotlib__matplotlib-22883,submitted,1,0,0,2,12
+S278,matplotlib__matplotlib-26011,submitted,0,1,0,7,12
+S279,sympy__sympy-14699,submitted (exit_cost),1,0,1,15,3
+S280,pydata__xarray-3305,submitted (exit_cost),0,1,1,7,22
+S281,pydata__xarray-7101,submitted (exit_cost),1,1,1,31,3
+S282,matplotlib__matplotlib-26020,submitted,1,0,1,22,13
+S283,django__django-12231,exit_cost,0,0,0,0,3
+S284,django__django-15240,submitted (exit_cost),0,0,1,99,52
+S285,django__django-12504,submitted,0,0,0,0,25
+S286,django__django-11003,submitted,1,0,0,90,2
+S287,pytest-dev__pytest-5404,submitted,0,1,0,2,16
+S288,sympy__sympy-18763,submitted,1,0,0,7,2
+S289,django__django-12477,submitted (exit_cost),0,0,1,13,17
+S290,scikit-learn__scikit-learn-11042,submitted (exit_cost),1,0,1,41,14
+S291,sympy__sympy-18605,submitted,1,0,0,3,4
+S292,scikit-learn__scikit-learn-11391,submitted,1,0,0,8,12
+S293,psf__requests-5087,submitted (exit_cost),1,0,1,130,23
+S294,sphinx-doc__sphinx-8674,submitted (exit_cost),0,1,0,18,31
+S295,django__django-13240,submitted,1,0,0,25,25
+S296,django__django-15747,submitted (exit_cost),0,1,0,247,20
+S297,django__django-12983,submitted,1,0,1,40,11
+S298,django__django-12973,submitted,1,0,0,4,6
+S299,matplotlib__matplotlib-24570,submitted,1,0,1,12,4
+S300,sympy__sympy-16963,submitted,1,0,0,10,68
+S301,django__django-16254,submitted (exit_cost),0,1,0,221,5
+S302,pydata__xarray-2922,submitted,0,1,0,234,278
+S303,sympy__sympy-20590,submitted,0,0,1,13,5
+S304,astropy__astropy-12891,submitted,1,1,0,6,83
+S305,astropy__astropy-7166,submitted,1,0,0,3,10
+S306,django__django-16578,submitted,1,0,0,6,27
+S307,django__django-13354,submitted (exit_cost),0,1,1,105,3
+S308,matplotlib__matplotlib-24768,submitted,0,1,1,49,79
+S309,sympy__sympy-24661,submitted (exit_cost),1,0,1,1302,23
+S310,matplotlib__matplotlib-20488,submitted (exit_cost),0,1,0,8,6
+S311,sympy__sympy-18650,submitted (exit_cost),1,1,1,242,5
+S312,django__django-13693,submitted,1,0,0,6,8
+S313,sympy__sympy-13581,submitted (exit_cost),0,1,1,17,32
+S314,sympy__sympy-21260,submitted (exit_cost),1,0,1,46,161
+S315,django__django-13774,submitted (exit_cost),1,0,0,295,36
+S316,matplotlib__matplotlib-25052,submitted (exit_cost),0,0,1,9,9
+S317,django__django-13768,submitted (exit_cost),1,0,1,16,9
+S318,sympy__sympy-18062,submitted (exit_cost),0,0,1,6,27
+S319,sphinx-doc__sphinx-8707,submitted,1,1,1,24,64
+S320,sphinx-doc__sphinx-9104,submitted,0,1,0,27,2
